@@ -345,7 +345,7 @@ PlasmaCore.Dialog {
                         anchors.centerIn: parent
                         color: colors.overlayTextColor
                         textFormat: Text.StyledText
-                        text: "<b>Select a window to tile here</b>"
+                        text: i18n("<b>Select a window to tile here</b>")
                         font.pixelSize: 16
                         font.family: "Noto Sans"
                         horizontalAlignment: Text.AlignHCenter
@@ -463,7 +463,7 @@ PlasmaCore.Dialog {
                     anchors.centerIn: parent
                     color: "white"
                     textFormat: Text.StyledText
-                    text: suggestionsInsideTile ? "Select a window to place here" : "Select a window to place in the highlighted tile"
+                    text: suggestionsInsideTile ? i18n("Select a window to place here") : i18n("Select a window to place in the highlighted tile")
                     font.pixelSize: 16
                     font.family: "Noto Sans"
                     horizontalAlignment: Text.AlignHCenter
@@ -501,7 +501,7 @@ PlasmaCore.Dialog {
                     anchors.centerIn: parent
                     color: "white"
                     textFormat: Text.StyledText
-                    text: "Click a tile to switch to it. Click anywhere else to close suggestions. Disable suggestions (<b>" + config.shortcutToggleTilingSuggestions + "</b>)"
+                    text: i18n("Click a tile to switch to it. Click anywhere else to close suggestions. Disable suggestions (<b>%1</b>)", config.shortcutToggleTilingSuggestions)
                     font.pixelSize: 16
                     font.family: "Noto Sans"
                     horizontalAlignment: Text.AlignHCenter

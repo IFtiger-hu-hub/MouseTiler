@@ -438,35 +438,35 @@ SPECIAL_AUTO_TILER_3`;
                             if (coordinates[0].startsWith('SPECIAL_')) {
                                 switch (coordinates[0]) {
                                     case 'SPECIAL_FILL':
-                                        layout.tiles.push({x: 0, y: 0, w: 75, h: 100, t: '«&nbsp; FILL &nbsp;»', hint: 'Fill largest empty space'});
-                                        layout.tiles.push({x: 75, y: 0, w: 25, h: 100, t: '« »', d: false, hint: 'Fill smallest empty space'});
+                                        layout.tiles.push({x: 0, y: 0, w: 75, h: 100, t: i18n('«&nbsp; FILL &nbsp;»'), hint: i18n('Fill largest empty space')});
+                                        layout.tiles.push({x: 75, y: 0, w: 25, h: 100, t: '« »', d: false, hint: i18n('Fill smallest empty space')});
                                         layout.special = 'SPECIAL_FILL';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_SPLIT_VERTICAL':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 50, t: 'SPLIT', hint: 'Split largest window and place on top'});
-                                        layout.tiles.push({x: 0, y: 50, w: 100, h: 50, t: 'SPLIT', d: false, hint: 'Split largest window and place on bottom'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 50, t: i18n('SPLIT'), hint: i18n('Split largest window and place on top')});
+                                        layout.tiles.push({x: 0, y: 50, w: 100, h: 50, t: i18n('SPLIT'), d: false, hint: i18n('Split largest window and place on bottom')});
                                         layout.special = 'SPECIAL_SPLIT_VERTICAL';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_SPLIT_HORIZONTAL':
-                                        layout.tiles.push({x: 0, y: 0, w: 50, h: 100, t: 'SPLIT', hint: 'Split largest window and place to the left'});
-                                        layout.tiles.push({x: 50, y: 0, w: 50, h: 100, t: 'SPLIT', d: false, hint: 'Split largest window and place to the right'});
+                                        layout.tiles.push({x: 0, y: 0, w: 50, h: 100, t: i18n('SPLIT'), hint: i18n('Split largest window and place to the left')});
+                                        layout.tiles.push({x: 50, y: 0, w: 50, h: 100, t: i18n('SPLIT'), d: false, hint: i18n('Split largest window and place to the right')});
                                         layout.special = 'SPECIAL_SPLIT_HORIZONTAL';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_MAXIMIZE':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>MAXIMIZE<br>⌞⌝', hint: 'Set window to ⌞⌝ Maximized<br>It will return to previous size when moved'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('MAXIMIZE') + '<br>⌞⌝', hint: i18n('Set window to ⌞⌝ Maximized<br>It will return to previous size when moved')});
                                         layout.special = 'SPECIAL_MAXIMIZE';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_MINIMIZE':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>MINIMIZE<br>🗕', hint: 'Set window to 🗕 Minimized<br>Useful for windows without a titlebar'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('MINIMIZE') + '<br>🗕', hint: i18n('Set window to 🗕 Minimized<br>Useful for windows without a titlebar')});
                                         layout.special = 'SPECIAL_MINIMIZE';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_FULLSCREEN':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>FULLSCREEN<br>🗖', hint: 'Set window to 🗖 Fullscreen<br><font color="orange">⚠</font> <b>WARNING</b> you might need to press <b>Alt+F3</b> to exit'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('FULLSCREEN') + '<br>🗖', hint: i18n('Set window to 🗖 Fullscreen<br><font color="orange">⚠</font> <b>WARNING</b> you might need to press <b>Alt+F3</b> to exit')});
                                         layout.special = 'SPECIAL_FULLSCREEN';
                                         isValid = true;
                                         break;
@@ -475,27 +475,27 @@ SPECIAL_AUTO_TILER_3`;
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_KEEP_ABOVE':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>KEEP ABOVE<br>▲', hint: 'Toggle window ▲ Keep Above'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('KEEP ABOVE') + '<br>▲', hint: i18n('Toggle window ▲ Keep Above')});
                                         layout.special = 'SPECIAL_KEEP_ABOVE';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_KEEP_BELOW':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>KEEP BELOW<br>▼', hint: 'Toggle window ▼ Keep Below'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('KEEP BELOW') + '<br>▼', hint: i18n('Toggle window ▼ Keep Below')});
                                         layout.special = 'SPECIAL_KEEP_BELOW';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_NO_TITLEBAR_AND_FRAME':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: 'NO TITLEBAR<br>AND FRAME', hint: 'Toggle window <font size="1">⊘</font> No Titlebar and Frame<br><font color="orange">⚠</font> <b>WARNING</b> you might need to press <b>Alt+F3</b> to re-enable'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: i18n('NO TITLEBAR<br>AND FRAME'), hint: i18n('Toggle window <font size="1">⊘</font> No Titlebar and Frame<br><font color="orange">⚠</font> <b>WARNING</b> you might need to press <b>Alt+F3</b> to re-enable')});
                                         layout.special = 'SPECIAL_NO_TITLEBAR_AND_FRAME';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_CLOSE':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>CLOSE<br>🗙', hint: '🗙 Close the window<br>Useful for windows without a titlebar'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: '<br>' + i18n('CLOSE') + '<br>🗙', hint: i18n('🗙 Close the window<br>Useful for windows without a titlebar')});
                                         layout.special = 'SPECIAL_CLOSE';
                                         isValid = true;
                                         break;
                                     case 'SPECIAL_AUTO_TILER_TOGGLE':
-                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: 'TOGGLE<br>AUTO TILE', hint: 'Toggle auto tile'});
+                                        layout.tiles.push({x: 0, y: 0, w: 100, h: 100, t: i18n('TOGGLE<br>AUTO TILE'), hint: i18n('Toggle auto tile')});
                                         layout.special = 'SPECIAL_AUTO_TILER_TOGGLE';
                                         isValid = true;
                                         break;
@@ -1545,7 +1545,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Show Config"
-        text: "Mouse Tiler: Show Config"
+        text: i18n("Mouse Tiler: Show Config")
         sequence: "Ctrl+."
         onActivated: {
             log('Show Config triggered!');
@@ -1559,7 +1559,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Visibility"
-        text: "Mouse Tiler: Toggle Visibility"
+        text: i18n("Mouse Tiler: Toggle Visibility")
         sequence: "Meta+Space"
         onActivated: {
             log('Toggle Visibility triggered!');
@@ -1600,7 +1600,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Change Mode"
-        text: "Mouse Tiler: Change Mode"
+        text: i18n("Mouse Tiler: Change Mode")
         sequence: "Meta+Ctrl+Space"
         onActivated: {
             log('Change Mode triggered!');
@@ -1618,7 +1618,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Show All/Toggle Span"
-        text: "Mouse Tiler: Show All/Toggle Span"
+        text: i18n("Mouse Tiler: Show All/Toggle Span")
         sequence: "Ctrl+Space"
         onActivated: {
             log('Show All/Toggle Span triggered!');
@@ -1632,7 +1632,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Input Type"
-        text: "Mouse Tiler: Toggle Input Type"
+        text: i18n("Mouse Tiler: Toggle Input Type")
         sequence: "Ctrl+Alt+I"
         onActivated: {
             log('Toggle Input Type triggered!');
@@ -1645,7 +1645,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Center In Tile"
-        text: "Mouse Tiler: Toggle Center In Tile"
+        text: i18n("Mouse Tiler: Toggle Center In Tile")
         sequence: "Meta+Ctrl+C"
         onActivated: {
             log('Toggle Center In Tile triggered!');
@@ -1655,7 +1655,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Move To Previous Virtual Desktop"
-        text: "Mouse Tiler: Toggle Move To Previous Virtual Desktop"
+        text: i18n("Mouse Tiler: Toggle Move To Previous Virtual Desktop")
         sequence: "Meta+Ctrl+V"
         onActivated: {
             log('Toggle Move To Previous Virtual Desktop triggered!');
@@ -1669,7 +1669,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Auto Tiler - Decrease Scroll Position"
-        text: "Mouse Tiler: Auto Tiler - Scroll To Previous Window"
+        text: i18n("Mouse Tiler: Auto Tiler - Scroll To Previous Window")
         sequence: "Ctrl+Alt+Left"
         onActivated: {
             log('Decrease Scroll Position triggered!');
@@ -1679,7 +1679,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Auto Tiler - Increase Scroll Position"
-        text: "Mouse Tiler: Auto Tiler - Scroll To Next Window"
+        text: i18n("Mouse Tiler: Auto Tiler - Scroll To Next Window")
         sequence: "Ctrl+Alt+Right"
         onActivated: {
             log('Auto Tiler - Increase Scroll Position triggered!');
@@ -1689,7 +1689,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Auto Tile For Active Window"
-        text: "Mouse Tiler: Toggle Auto Tile For Active Window"
+        text: i18n("Mouse Tiler: Toggle Auto Tile For Active Window")
         sequence: "Ctrl+Alt+A"
         onActivated: {
             log('Toggle Auto Tile For Active Window triggered!');
@@ -1702,7 +1702,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Change To Previous Auto Tiler"
-        text: "Mouse Tiler: Change To Previous Auto Tiler"
+        text: i18n("Mouse Tiler: Change To Previous Auto Tiler")
         sequence: "Ctrl+Alt+X"
         onActivated: {
             log('Change To Previous Auto Tiler triggered!');
@@ -1712,7 +1712,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Change To Next Auto Tiler"
-        text: "Mouse Tiler: Change To Next Auto Tiler"
+        text: i18n("Mouse Tiler: Change To Next Auto Tiler")
         sequence: "Ctrl+Alt+C"
         onActivated: {
             log('Change To Next Auto Tiler triggered!');
@@ -1722,7 +1722,7 @@ SPECIAL_AUTO_TILER_3`;
 
     ShortcutHandler {
         name: "Mouse Tiler: Toggle Tiling Suggestions"
-        text: "Mouse Tiler: Toggle Tiling Suggestions"
+        text: i18n("Mouse Tiler: Toggle Tiling Suggestions")
         sequence: "Meta+Ctrl+S"
         onActivated: {
             log('Toggle Tiling Suggestions triggered!');

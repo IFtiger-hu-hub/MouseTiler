@@ -1,0 +1,1943 @@
+# MouseTiler Chinese Translation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MouseTiler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-13 01:34+0800\n"
+"PO-Revision-Date: 2026-06-12 17:30+0800\n"
+"Last-Translator: Antigravity AI\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Python Script\n"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:2
+msgid "&nbsp;<a href=\"https://discord.gg/Js6AYsnQQj\">Discord page</a>"
+msgstr "&nbsp;<a href=\"https://discord.gg/Js6AYsnQQj\">Discord page</a>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:3
+msgid ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"1:0,0,50,100+2:50,0,50,50+3:50,50,50,50\n"
+"1:0,0,50,50+4:0,50,50,50+2:50,0,50,50+3:50,50,50,50"
+msgstr ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"1:0,0,50,100+2:50,0,50,50+3:50,50,50,50\n"
+"1:0,0,50,50+4:0,50,50,50+2:50,0,50,50+3:50,50,50,50"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:4
+msgid ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"3:0,0,25,100+1:25,0,50,100+2:75,0,25,100\n"
+"3:0,0,25,100+1:25,0,50,100+2:75,0,25,50+4:75,50,25,50\n"
+"3:0,0,25,50+5:0,50,25,50+1:25,0,50,100+2:75,0,25,50+4:75,50,25,50\n"
+"4:0,0,25,50+6:0,50,25,50+1:25,0,25,100+2:50,0,25,100+3:75,0,25,50+5:75,50,25,50\n"
+"4:0,0,25,50+7:0,50,25,50+1:25,0,25,100+2:50,0,25,50+6:50,50,25,50+3:75,0,25,50+5:75,50,25,50\n"
+"4:0,0,25,50+8:0,50,25,50+1:25,0,25,50+7:25,50,25,50+2:50,0,25,50+6:50,50,25,50+3:75,0,25,50+5:75,50,25,50"
+msgstr ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"3:0,0,25,100+1:25,0,50,100+2:75,0,25,100\n"
+"3:0,0,25,100+1:25,0,50,100+2:75,0,25,50+4:75,50,25,50\n"
+"3:0,0,25,50+5:0,50,25,50+1:25,0,50,100+2:75,0,25,50+4:75,50,25,50\n"
+"4:0,0,25,50+6:0,50,25,50+1:25,0,25,100+2:50,0,25,100+3:75,0,25,50+5:75,50,25,50\n"
+"4:0,0,25,50+7:0,50,25,50+1:25,0,25,100+2:50,0,25,50+6:50,50,25,50+3:75,0,25,50+5:75,50,25,50\n"
+"4:0,0,25,50+8:0,50,25,50+1:25,0,25,50+7:25,50,25,50+2:50,0,25,50+6:50,50,25,50+3:75,0,25,50+5:75,50,25,50"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:5
+msgid ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"3:0,0,33,100+1:33,0,34,100+2:67,0,33,100\n"
+"3:0,0,33,100+1:33,0,34,100+2:67,0,33,50+4:67,50,33,50\n"
+"3:0,0,33,50+5:0,50,33,50+1:33,0,34,100+2:67,0,33,50+4:67,50,33,50\n"
+"3:0,0,33,50+5:0,50,33,50+1:33,0,34,50+6:33,50,34,50+2:67,0,33,50+4:67,50,33,50"
+msgstr ""
+"1:0,0,100,100\n"
+"1:0,0,50,100+2:50,0,50,100\n"
+"3:0,0,33,100+1:33,0,34,100+2:67,0,33,100\n"
+"3:0,0,33,100+1:33,0,34,100+2:67,0,33,50+4:67,50,33,50\n"
+"3:0,0,33,50+5:0,50,33,50+1:33,0,34,100+2:67,0,33,50+4:67,50,33,50\n"
+"3:0,0,33,50+5:0,50,33,50+1:33,0,34,50+6:33,50,34,50+2:67,0,33,50+4:67,50,33,50"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:6
+msgid ""
+"<a href=\"https://buymeacoffee.com/rxappdev\">Buy me a coffee</a>&nbsp;&nbsp;"
+"<b style=\"color:#FF0000\">❤</b>"
+msgstr ""
+"<a href=\"https://buymeacoffee.com/rxappdev\">Buy me a coffee</a>&nbsp;&nbsp;"
+"<b style=\"color:#FF0000\">❤</b>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:7
+msgid "<a href=\"https://github.com/rxappdev/MouseTiler\">Github page</a>"
+msgstr "<a href=\"https://github.com/rxappdev/MouseTiler\">Github page</a>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:8
+msgid ""
+"<a href=\"https://patreon.com/rxappdev\">Patreon</a>&nbsp;&nbsp;<b "
+"style=\"color:#FF0000\">❤</b>"
+msgstr ""
+"<a href=\"https://patreon.com/rxappdev\">Patreon</a>&nbsp;&nbsp;<b "
+"style=\"color:#FF0000\">❤</b>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:9
+msgid ""
+"<html><head/><body><p align=\"center\"><span style=\" font-weight:700; "
+"color:#ff0000;\">❤   </span>Thank you for using this tiler!<span style=\" "
+"font-weight:700; color:#ff0000;\">   ❤</span></p><p>If you enjoy it and "
+"maybe also <a href=\"https://store.kde.org/p/2324743\"><span style=\" text-"
+"decoration: underline; color:#5294e2;\">Remember Window Positions</span></"
+"a>, I would really apreciate if you could support me in one way or another.</"
+"p><p>I have by now spent around 5 months (full time, 8+ hours of work a day) "
+"developing these two scripts, and I need to feed myself, my 4 year old son, "
+"and pay rent. Sadly donations are scarce (not even covering a single months "
+"rent. I am around $5000 behind by now).</p><p>Starting February 1st 2026, I "
+"will stop adding new features to the scripts, only fixing bugs. This is "
+"because I need to do work that earns money so I do not go bankrupt. If the "
+"donations ever take off, I will continue with the script development.</p><p "
+"align=\"center\"><span style=\" font-weight:700; color:#ff0000;\">❤   </"
+"span>Thank you - Rafael<span style=\" font-weight:700; color:#ff0000;\">   ❤"
+"</span></p></body></html>"
+msgstr ""
+"<html><head/><body><p align=\"center\"><span style=\" font-weight:700; "
+"color:#ff0000;\">❤   </span>Thank you for using this tiler!<span style=\" "
+"font-weight:700; color:#ff0000;\">   ❤</span></p><p>If you enjoy it and "
+"maybe also <a href=\"https://store.kde.org/p/2324743\"><span style=\" text-"
+"decoration: underline; color:#5294e2;\">Remember Window Positions</span></"
+"a>, I would really apreciate if you could support me in one way or another.</"
+"p><p>I have by now spent around 5 months (full time, 8+ hours of work a day) "
+"developing these two scripts, and I need to feed myself, my 4 year old son, "
+"and pay rent. Sadly donations are scarce (not even covering a single months "
+"rent. I am around $5000 behind by now).</p><p>Starting February 1st 2026, I "
+"will stop adding new features to the scripts, only fixing bugs. This is "
+"because I need to do work that earns money so I do not go bankrupt. If the "
+"donations ever take off, I will continue with the script development.</p><p "
+"align=\"center\"><span style=\" font-weight:700; color:#ff0000;\">❤   </"
+"span>Thank you - Rafael<span style=\" font-weight:700; color:#ff0000;\">   ❤"
+"</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:10
+msgid ""
+"<html><head/><body><p>&quot;<span style=\" font-weight:700;\">Popup Grid</"
+"span>&quot; mode: Show or hide all layouts.</p><p>&quot;<span style=\" font-"
+"weight:700;\">Overlay</span>&quot; mode: Start or stop spanning from the "
+"hovered tile (a window can span multiple tiles).</p></body></html>"
+msgstr "<html><head/><body><p>&quot;<span style=\" font-weight:700;\">弹出网格</span>&quot; 模式：显示或隐藏所有布局。</p><p>&quot;<span style=\" font-weight:700;\">覆盖平铺</span>&quot; 模式：从悬停的平铺块开始或停止跨越（一个窗口可以跨越多个平铺块）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:11
+msgid ""
+"<html><head/><body><p><span style=\" color:#ff0000;\">To apply changes, "
+"please disable (untick then click &quot;Apply&quot;), and re-enable (tick "
+"then click &quot;Apply&quot;) the script (limitation of KDE). (Reboot works "
+"too).</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" color:#ff0000;\">要应用更改，请禁用该脚本（取消勾选并点击“应用”），然后重新启用该脚本（勾选并点击“应用”）（这是 KDE 的限制，重启也同样有效）。</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:12
+msgid ""
+"<html><head/><body><p><span style=\" color:#ffaa00;\">TIP</span> You can use "
+"the <a href=\"https://rxweb.epizy.com/mousetiler/editor.html\"><span "
+"style=\" text-decoration: underline; color:#5294e2;\">graphical web editor</"
+"span></a> to edit existining, or create brand new layouts.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" color:#ffaa00;\">提示</span> 你可以使用 <a href=\"https://rxweb.epizy.com/mousetiler/editor.html\"><span style=\" text-decoration: underline; color:#5294e2;\">在线图形编辑器</span></a> 来编辑现有布局，或创建全新布局。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:13
+msgid ""
+"<html><head/><body><p><span style=\" color:#ffaa00;\">TIP</span> You can use "
+"the <a href=\"https://rxweb.epizy.com/mousetiler/editor.html\"><span "
+"style=\" text-decoration: underline; color:#5294e2;\">graphical web editor</"
+"span></a> to edit the layout.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" color:#ffaa00;\">提示</span> 你可以使用 <a href=\"https://rxweb.epizy.com/mousetiler/editor.html\"><span style=\" text-decoration: underline; color:#5294e2;\">在线图形编辑器</span></a> 来编辑布局。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:14
+msgid ""
+"<html><head/><body><p><span style=\" color:#ffaa00;\">WARNING</span> Add "
+"&quot;Auto tile for id&quot; or enable &quot;Auto tile newly opened "
+"windows&quot; at own risk. It should be safe now since auto-tiling received "
+"a lot of fixes and all known bugs have been fixed. But it is preferrable to "
+"manually auto tile each app/window and save/restore the auto tile status "
+"with Remember Window Positions (v5.4.1 or newer) if you can. Please report "
+"problematic apps on Discord so I can add them to default blacklist.</p></"
+"body></html>"
+msgstr "<html><head/><body><p><span style=\" color:#ffaa00;\">警告</span> 添加 &quot;针对特定 ID 自动平铺&quot; 或启用 &quot;自动平铺新打开的窗口&quot; 需自担风险。由于自动平铺进行了大量修复，所有已知 Bug 均已修复，目前应该是安全的。但如果可以的话，最好手动对每个应用/窗口进行自动平铺，并配合 Remember Window Positions (v5.4.1或更高版本) 来保存/恢复自动平铺状态。请在 Discord 上反馈有问题的应用，以便我将它们加入默认黑名单。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:15
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:400; "
+"color:#ffaa00;\">DEFAULT </span>SPECIAL_AUTO_TILER_1</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:400; color:#ffaa00;\">默认 </span>SPECIAL_AUTO_TILER_1</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:16
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700; "
+"color:#ffaa00;\">IMPORTANT Disable this</span>. I am sorry about the hint - "
+"but I get questions regarding tiler visibility daily and people uninstall "
+"because they do not check the settings.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">重要 禁用此项</span>。对于这个提示我感到很抱歉——但我每天都会收到关于平铺器可见性的问题，很多人因为没有检查设置就直接卸载了。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:17
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700; "
+"color:#ffaa00;\">IMPORTANT</span> Default tiler visibility</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">重要</span> 默认平铺器可见性</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:18
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700; "
+"color:#ffaa00;\">IMPORTANT</span> Please note that shortcuts have to be "
+"configured in &quot;<span style=\" font-weight:700;\">System Settings &gt; "
+"Keyboard &gt; Shortcuts &gt; Window Management &gt; Mouse Tiler: ...</"
+"span>&quot; - this is just a list of shortcuts and explanation of what they "
+"do. They can be edited here for the purpose of displaying correct hints in "
+"the tiler but have no effect on actual keybinding.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">重要</span> 请注意，快捷键必须在 &quot;<span style=\" font-weight:700;\">系统设置 &gt; 键盘 &gt; 快捷键 &gt; 窗口管理 &gt; Mouse Tiler: ...</span>&quot; 中配置 - 这里只是快捷键列表和它们的作用说明。可以在这里编辑它们以便在平铺器中显示正确的提示，但对实际的键绑定没有影响。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:19
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700; "
+"color:#ffaa00;\">IMPORTANT</span><span style=\" font-weight:700;\"> "
+"Position</span>: Determines where the Popup Grid will be displayed. You can "
+"chose to show it below mouse pointer or at a fixed screen position.</p></"
+"body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">重要</span><span style=\" font-weight:700;\"> 位置</span>：确定弹出网格的显示位置。你可以选择在鼠标指针下方显示，或在固定的屏幕位置显示。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:20
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">READ "
+"ME</span> There are a lot of settings, bust most people probably only want "
+"to change 3 of them (visibility, position, and disable the hints). I have "
+"marked them with <span style=\" font-weight:700; color:#ffaa00;\">IMPORTANT</"
+"span> tag so they are easy to find.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700; color:#ffaa00;\">自述说明</span> 这里有很多设置，但大多数人可能只想更改其中的 3 个（显示/隐藏、位置和禁用提示）。我已经用 <span style=\" font-weight:700; color:#ffaa00;\">重要</span> 标签标记了它们，以便于查找。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:21
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">All Popup Grid "
+"Layouts</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">所有弹出网格布局</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:22
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Auto Tiling</span>: "
+"Configure the auto tilier behavior. <span style=\" color:#ffaa00;\">TIP</"
+"span> You can use the <a href=\"https://rxweb.epizy.com/mousetiler/"
+"editor.html\"><span style=\" text-decoration: underline; "
+"color:#5294e2;\">graphical web editor</span></a> to edit layouts - but need "
+"to manually add prefixes (such as 0:, 1:, 2:, -1 or *: )</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">自动平铺</span>：配置自动平铺的行为。<span style=\" color:#ffaa00;\">提示</span> 你可以使用 <a href=\"https://rxweb.epizy.com/mousetiler/editor.html\"><span style=\" text-decoration: underline; color:#5294e2;\">在线图形编辑器</span></a> 来编辑布局 - 但需要手动添加前缀（例如 0:, 1:, 2:, -1 或 *: ）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:23
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Center In Tile</"
+"span>: Configure how the center in tile works. You can toggle between "
+"regular tiling, and centering in the tile by using the shortcut (<span "
+"style=\" font-weight:700;\">Meta+Ctrl+C</span>).</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">平铺居中</span>：配置平铺居中的工作方式。你可以使用快捷键（<span style=\" font-weight:700;\">Meta+Ctrl+C</span>）在常规平铺和居中平铺之间切换。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:24
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Colors</span>: "
+"Change the tiler color theme. By default the tiler follows your current "
+"theme colors.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">颜色</span>：更改平铺器的颜色主题。默认情况下，平铺器会跟随你当前的主题颜色。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:25
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Debug Settings</"
+"span>: Intended for development or when submitting a bug/issue to give more "
+"details to the current issue. This might write a lot of data to the system "
+"log. Not recommended for every day use.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">调试设置</span>：用于开发或提交错误/问题时，以提供当前问题的更多细节。这可能会向系统日志中写入大量数据。不推荐日常使用。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:26
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Default Popup Grid "
+"Layouts</span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">默认弹出网格布局</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:27
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Default Shortcut</"
+"span></p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Default Shortcut</"
+"span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:28
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Default Tiler</"
+"span>: This decides which tiler will show up when you start moving a window. "
+"You can still toggle between the tilers by using the shortcut (<span "
+"style=\" font-weight:700;\">Meta+Ctrl+Space</span>).</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">默认平铺器</span>：这决定了开始移动窗口时将显示哪个平铺器。你仍然可以使用快捷键（<span style=\" font-weight:700;\">Meta+Ctrl+Space</span>）在平铺器之间切换。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:29
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Description</span></"
+"p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Description</span></"
+"p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:30
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">General Settings</"
+"span></p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">常规设置</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:31
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Grid Configuration</"
+"span>: Change the properties of the grid, layouts and tiles.</p></body></"
+"html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">网格配置</span>：更改网格、布局和平铺块的属性。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:32
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Input Type</span>: "
+"Change the default input type (needed when you use certain Stylus or "
+"Touchpad as input). You can toggle between the input types with <span "
+"style=\" font-weight:700;\">Ctrl+Alt+I</span>. When using Window as input, "
+"an indicator will be displayed in the top-center indicating the position "
+"used by the tiler.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">输入类型</span>：更改默认输入类型（当您使用某些手写笔或触摸板作为输入时需要）。你可以使用 <span style=\" font-weight:700;\">Ctrl+Alt+I</span> 切换输入类型。当使用窗口作为输入时，顶部中央将显示一个指示器，指出平铺器使用的位置。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:33
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Layout</span>: Set "
+"the layout for the Overlay mode. Valid format is either a grid [XxY] "
+"(example 4x2), [X,Y,Width,Height] each value in percent (e.g. 30 or 33.33), "
+"fractions (e.g. 1/3) or pixels using a px suffix (example 0,0,100,100 for a "
+"full screen tile equal to 1x1), or [X,Y,Width,Height,AnchorX,AnchorY] - same "
+"as previous but anchored around the anchor (example "
+"100,100,50,33,RIGHT,BOTTOM for a 50% wide and 33% high tile placed in the "
+"bottom right corner).</p><p>The layout can be made of multiple grids and/or "
+"tiles separated by a + (example 0,0,50,100+50,0,50,100 which is equal to a "
+"2x1). Please see the <span style=\" font-weight:700;\">Popup Grid Layouts</"
+"span> tab for more detailed description.</p><p>WARNING - SPECIAL layouts are "
+"not supported in Overlay Mode.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">布局</span>：设置覆盖模式下的布局。有效格式为网格 [宽x高]（例如 4x2）、[X, Y, 宽度, 高度]（每个值以百分比表示，例如 30 或 33.33）、分数（例如 1/3）或使用 px 后缀的像素值（例如 0,0,100,100 表示等于 1x1 的全屏平铺块），或者 [X, Y, 宽度, 高度, 锚点X, 锚点Y] - 与前者相同但围绕锚点定位（例如 100,100,50,33,RIGHT,BOTTOM 表示将 50% 宽、33% 高的平铺块放置在右下角）。</p><p>布局可由用 + 分割的多个网格和/或平铺块组成（例如 0,0,50,100+50,0,50,100 等于 2x1 网格）。请参阅<span style=\" font-weight:700;\">弹出网格布局</span>选项卡以获取更详细的说明。</p><p>警告 - 覆盖模式不支持特殊的 SPECIAL 布局。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:34
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Meta</span> key "
+"depends on your keyboard, but on most keyboards it is the Windows key. Most "
+"of the shortcuts should be used while moving a window.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">Meta</span> 键取决于你的键盘，但在大多数键盘上它是 Windows 键。大多数快捷键应该在移动窗口时使用。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:35
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Mouse Position "
+"Polling Rate</span>: Set the polling rate of the Overlay mode mouse "
+"position. The shorter the polling rate the faster the Overlay will react to "
+"mouse positions but it will introduce unnecessary calculations and might "
+"introduce lag (90-200 ms is recommended for smooth experience).</p></body></"
+"html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">鼠标位置轮询率</span>：设置覆盖模式下鼠标位置的轮询率。轮询率越短，覆盖层对鼠标位置的反应越快，但它会引入不必要的计算并可能导致卡顿（推荐 90-200 ms 以获得平滑体验）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:36
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Mouse Position "
+"Polling Rate</span>: Set the polling rate of the popup grid mode mouse "
+"position. The shorter the polling rate the faster the Popup Grid will react "
+"to mouse positions but it will introduce unnecessary calculations and might "
+"introduce lag (50-150 ms is recommended for smooth experience).</p></body></"
+"html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">鼠标位置轮询率</span>：设置弹出网格模式下鼠标位置的轮询率。轮询率越短，弹出网格对鼠标位置的反应越快，但它会引入不必要的计算并可能导致卡顿（推荐 50-150 ms 以获得平滑体验）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:37
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Name</span></p></"
+"body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Name</span></p></"
+"body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:38
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Overlay Screen Edge "
+"Margin</span>: Margin around the Overlay. Increase this in case you use edge "
+"snapping and want to leave a gap to allow it to work. This does not add any "
+"margin around the actual window.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">全屏覆盖屏幕边缘边距</span>：覆盖层周围 the 边距。如果你使用边缘吸附并希望留出空隙使其工作，请增加此值。这不会在实际窗口周围添加任何边距。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:39
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Popup Grid default "
+"tile hint</span>: Replaces default hint with Popup Grid non-special tile "
+"position and/or size (when one of the below options is enabled).</p></body></"
+"html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">弹出网格默认平铺提示</span>：用弹出网格的非特殊平铺位置和/或大小替换默认提示（当启用以下选项之一时）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:40
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Show Hint</span></"
+"p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">显示提示</span></p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:41
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Virtual Desktop "
+"Manager</span>: Configure if the Virtual Desktop Manager should be visible "
+"and how it should behave.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">虚拟桌面管理器</span>：配置虚拟桌面管理器是否可见以及它的行为方式。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:42
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Visibility</span>: "
+"Determines when the default tiler is visible. Previous visibility is kept "
+"when changing modes using the keyboard shortcut.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">显示/隐藏</span>：确定默认平铺器的可见性。使用快捷键更改模式时，将保留先前的可见性。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:43
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Window Margin</"
+"span>: Set the margin around windows. Set the additional screen edge margin "
+"to -1 px if you use screen scaling and experience gaps around screen edges.</"
+"p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">窗口间距</span>：设置窗口周围的间距。如果你使用屏幕缩放并遇到屏幕边缘缝隙，请将额外屏幕边缘边距设置为 -1 px。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:44
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:700;\">Window Suggestions</"
+"span>: Configure if suggestions should be automatically shown for other "
+"tiles, and which windows should be suggested. Suggestions are only available "
+"for regular tiles.</p></body></html>"
+msgstr "<html><head/><body><p><span style=\" font-weight:700;\">窗口建议</span>：配置是否自动为其他平铺块显示建议，以及应该建议哪些窗口。建议仅适用于常规平铺块。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:45
+msgid ""
+"<html><head/><body><p>Configurations used for auto tiling. Three different "
+"auto tiling configurations are possible if you want to use different config "
+"on different monitors, virtual desktops or simply toggle between them. Only "
+"one configuration can be used on same screen + virtual desktop + activity at "
+"a time - if you try to mix them, the new configuration replaces the old one. "
+"You can view instructions, predefined layouts (including pictures to give "
+"you an idea what each one does) and user submitted layouts <a href=\"https://"
+"github.com/rxappdev/MouseTiler/blob/main/AUTOTILERGUIDE.md\"><span style=\" "
+"text-decoration: underline; color:#5294e2;\">here</span></a>.</p></body></"
+"html>"
+msgstr "<html><head/><body><p>用于自动平铺的配置。可以有三种不同的自动平铺配置，以便您在不同的显示器、虚拟桌面之间使用不同的配置，或仅在它们之间切换。同一屏幕 + 虚拟桌面 + 活动在同一时间只能使用一个配置 - 如果尝试混用，新配置将覆盖旧配置。您可以在<a href=\"https://github.com/rxappdev/MouseTiler/blob/main/AUTOTILERGUIDE.md\"><span style=\" text-decoration: underline; color:#5294e2;\">此处</span></a>查看说明、预定义布局（包括示意图）以及用户提交的布局。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:46
+msgid ""
+"<html><head/><body><p>Designed to work optimally with my other script <a "
+"href=\"https://github.com/rxappdev/RememberWindowPositions\"><span style=\" "
+"text-decoration: underline; color:#007af4;\">Remember Window Positions</"
+"span></a>.</p></body></html>"
+msgstr "<html><head/><body><p>旨在与我的另一个脚本 <a href=\"https://github.com/rxappdev/RememberWindowPositions\"><span style=\" text-decoration: underline; color:#007af4;\">Remember Window Positions</span></a> 配合获得最佳工作效果。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:47
+msgid ""
+"<html><head/><body><p>Do not auto tile this long after session start (<span "
+"style=\" color:#ffaa00;\">increase</span> to 10s or more if you use RWP)</"
+"p></body></html>"
+msgstr "<html><head/><body><p>会话启动后此时间段内不进行自动平铺（如果使用 RWP，请<span style=\" color:#ffaa00;\">增加</span>到 10 秒或更多）</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:48
+msgid ""
+"<html><head/><body><p>Format is same as Popup Grid Layouts. One layout per "
+"line. Each line needs to have minimum X tiles where X is the line number. "
+"Each tile needs to be prefixed with priority index starting at 0: on line 1. "
+"Negative values are allowed to show windows at end of the list. Line 8 needs "
+"tiles 0: and 7 other tiles ranging from -6: to 7: (8 numbers including 0). "
+"Special tile *: can be used to create fixed tiles. *: tiles will not be be "
+"re-prioritized and are simply there to allow mixed auto and normal layout. "
+"Place *: in same spot on each layout for best experience.</p></body></html>"
+msgstr "<html><head/><body><p>格式与弹出网格布局相同。每行一个布局。每行至少需要有 X 个平铺块，其中 X 是行号。每个平铺块都需要以从 0: 开始的优先级索引作为前缀（在第 1 行）。允许使用负值将窗口显示在列表末尾。第 8 行需要 0: 和其他 7 个范围从 -6: 到 7: 的平铺块（包括 0 在内共 8 个数字）。特殊平铺块 *: 可用于创建固定平铺块。*: 平铺块不会被重新排序，只是为了允许混合自动和普通布局。为了获得最佳体验，请在每个布局的相同位置放置 *:。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:49
+msgid ""
+"<html><head/><body><p>If a keyboard shortcut does not work (perhaps due to "
+"shortcut conflict), please manually assign it (or any shortcut you like) in "
+"&quot;<span style=\" font-weight:700;\">System Settings &gt; Keyboard &gt; "
+"Shortcuts &gt; Window Management &gt; Mouse Tiler: ...</span>&quot;.</p></"
+"body></html>"
+msgstr "<html><head/><body><p>如果快捷键不起作用（可能是由于快捷键冲突），请手动在 &quot;<span style=\" font-weight:700;\">系统设置 &gt; 键盘 &gt; 快捷键 &gt; 窗口管理 &gt; Mouse Tiler: ...</span>&quot; 中进行分配（或使用您喜欢的任何快捷键）。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:50
+msgid ""
+"<html><head/><body><p>Max auto tile delay (<span style=\" "
+"color:#ffaa00;\">increase</span> to 5s or more if you use Remember Window "
+"Positions)</p></body></html>"
+msgstr "<html><head/><body><p>最大自动平铺延迟（如果使用 Remember Window Positions，请<span style=\" color:#ffaa00;\">增加</span>到 5 秒或更多）</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:51
+msgid ""
+"<html><head/><body><p>Set all the layouts for the Popup mode - one layout "
+"per line.</p><p>Valid formats:</p><p>[<span style=\" font-weight:700;\">WxH</"
+"span>] - an W column wide and H rows high grid layout (example 4x2 will give "
+"2 rows with 4 columns each for a total of 8 tiles)</p><p>[<span style=\" "
+"font-weight:700;\">X,Y,Width,Height</span>] - an Width wide and Height tall "
+"tile located at X and Y coordinates (example 20,10,400px,200px for a 400 "
+"pixel wide, 200 pixel high tile placed at 20% screen width and 10% screen "
+"height)</p><p>[<span style=\" font-"
+"weight:700;\">X,Y,Width,Height,AnchorX,AnchorY</span>] - same as above, "
+"except tile is placed using the tile anchor point (example "
+"50,50,320px,240px,CENTER,CENTER to place a 320x240 pixel large tile in the "
+"middle of the screen - without the CENTER anchor, the top-left corner would "
+"end up in the middle of the screen instead)</p><p><span style=\" font-"
+"weight:700;\">X</span>, <span style=\" font-weight:700;\">Y</span>, <span "
+"style=\" font-weight:700;\">Width</span> and <span style=\" font-"
+"weight:700;\">Height</span> can be in percent (usually between 0 and 100, "
+"decimal values supported - recommended), pixels (absolute values using px "
+"suffix - not recommended) and fractions (e.g. 1/3).</p><p><span style=\" "
+"font-weight:700;\">AnchorX</span> can be a percentage (e.g. 50%) or fraction "
+"(e.g. 1/2) of tile Width or one of <span style=\" font-weight:700;\">LEFT</"
+"span>, <span style=\" font-weight:700;\">CENTER</span> or <span style=\" "
+"font-weight:700;\">RIGHT</span>.</p><p><span style=\" font-"
+"weight:700;\">AnchorY</span> can be a percentage (e.g. 50%) or fraction "
+"(e.g. 1/2) of tile Height or one of <span style=\" font-weight:700;\">TOP</"
+"span>, <span style=\" font-weight:700;\">CENTER</span> or <span style=\" "
+"font-weight:700;\">BOTTOM</span>.</p><p>The layout can be made of multiple "
+"grids and/or tiles separated by a + (example 0,0,50,100+50,0,50,100 which is "
+"equal to a 2x1 grid).</p><p>You can also use one of these special layouts: "
+"SPECIAL_FILL, SPECIAL_SPLIT_VERTICAL, SPECIAL_SPLIT_HORIZONTAL, "
+"SPECIAL_MAXIMIZE, SPECIAL_MINIMIZE, SPECIAL_FULLSCREEN, SPECIAL_KEEP_ABOVE, "
+"SPECIAL_KEEP_BELOW, SPECIAL_NO_TITLEBAR_AND_FRAME, SPECIAL_CLOSE, "
+"SPECIAL_EMPTY, SPECIAL_AUTO_TILER_TOGGLE, SPECIAL_AUTO_TILER_1, "
+"SPECIAL_AUTO_TILER_2 and SPECIAL_AUTO_TILER_3.</p></body></html>"
+msgstr "<html><head/><body><p>设置弹出网格模式下的所有布局 - 每行一个布局。</p><p>有效格式：</p><p>[<span style=\" font-weight:700;\">列数x行数</span>] - W 列宽、H 行高的网格布局（例如 4x2 将给出 2 行，每行 4 列，共 8 个平铺块）</p><p>[<span style=\" font-weight:700;\">X, Y, 宽度, 高度</span>] - 位于 X 和 Y 坐标的指定宽度 and 高度的平铺块（例如 20,10,400px,200px 表示一个 400 像素宽、200 像素高，且位于 20% 屏幕宽度和 10% 屏幕高度处的平铺块）</p><p>[<span style=\" font-weight:700;\">X, Y, 宽度, 高度, 锚点X, 锚点Y</span>] - 与上述相同，但使用锚点来定位平铺块（例如 50,50,320px,240px,CENTER,CENTER 用于将一个 320x240 像素的平铺块放置在屏幕正中央 - 如果不指定 CENTER 锚点，则平铺块的左上角将位于屏幕中央）</p><p><span style=\" font-weight:700;\">X</span>、<span style=\" font-weight:700;\">Y</span>、<span style=\" font-weight:700;\">宽度</span> 和 <span style=\" font-weight:700;\">高度</span> 可以是百分比（通常在 0 到 100 之间，支持小数 - 推荐）、像素（使用 px 后缀的绝对值 - 不推荐）和分数（如 1/3）。</p><p><span style=\" font-weight:700;\">锚点X</span> 可以是平铺块宽度的百分比（如 50%）、分数（如 1/2）或 <span style=\" font-weight:700;\">LEFT (左)</span>、<span style=\" font-weight:700;\">CENTER (中)</span> 或 <span style=\" font-weight:700;\">RIGHT (右)</span>。</p><p><span style=\" font-weight:700;\">锚点Y</span> 可以是平铺块高度的百分比（如 50%）、分数（如 1/2）或 <span style=\" font-weight:700;\">TOP (上)</span>、<span style=\" font-weight:700;\">CENTER (中)</span> 或 <span style=\" font-weight:700;\">BOTTOM (下)</span>。</p><p>布局可由用 + 分割的多个网格和/或平铺块组成（例如 0,0,50,100+50,0,50,100 等于 2x1 网格）。</p><p>你也可以使用以下特殊布局之一：SPECIAL_FILL、SPECIAL_SPLIT_VERTICAL、SPECIAL_SPLIT_HORIZONTAL、SPECIAL_MAXIMIZE、SPECIAL_MINIMIZE、SPECIAL_FULLSCREEN、SPECIAL_KEEP_ABOVE、SPECIAL_KEEP_BELOW、SPECIAL_NO_TITLEBAR_AND_FRAME、SPECIAL_CLOSE、SPECIAL_EMPTY、SPECIAL_AUTO_TILER_TOGGLE、SPECIAL_AUTO_TILER_1、SPECIAL_AUTO_TILER_2 和 SPECIAL_AUTO_TILER_3。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:52
+msgid ""
+"<html><head/><body><p>Set the layouts for the Popup mode - one layout per "
+"line.</p><p>Valid formats:</p><p>[<span style=\" font-weight:700;\">WxH</"
+"span>] - an W column wide and H rows high grid layout (example 4x2 will give "
+"2 rows with 4 columns each for a total of 8 tiles)</p><p>[<span style=\" "
+"font-weight:700;\">X,Y,Width,Height</span>] - an Width wide and Height tall "
+"tile located at X and Y coordinates (example 20,10,400px,200px for a 400 "
+"pixel wide, 200 pixel high tile placed at 20% screen width and 10% screen "
+"height)</p><p>[<span style=\" font-"
+"weight:700;\">X,Y,Width,Height,AnchorX,AnchorY</span>] - same as above, "
+"except tile is placed using the tile anchor point (example "
+"50,50,320px,240px,CENTER,CENTER to place a 320x240 pixel large tile in the "
+"middle of the screen - without the CENTER anchor, the top-left corner would "
+"end up in the middle of the screen instead)</p><p><span style=\" font-"
+"weight:700;\">X</span>, <span style=\" font-weight:700;\">Y</span>, <span "
+"style=\" font-weight:700;\">Width</span> and <span style=\" font-"
+"weight:700;\">Height</span> can be in percent (usually between 0 and 100, "
+"decimal values supported - recommended), pixels (absolute values using px "
+"suffix - not recommended) and fractions (e.g. 1/3).</p><p><span style=\" "
+"font-weight:700;\">AnchorX</span> can be a percentage (e.g. 50%) or fraction "
+"(e.g. 1/2) of tile Width or one of <span style=\" font-weight:700;\">LEFT</"
+"span>, <span style=\" font-weight:700;\">CENTER</span> or <span style=\" "
+"font-weight:700;\">RIGHT</span>.</p><p><span style=\" font-"
+"weight:700;\">AnchorY</span> can be a percentage (e.g. 50%) or fraction "
+"(e.g. 1/2) of tile Height or one of <span style=\" font-weight:700;\">TOP</"
+"span>, <span style=\" font-weight:700;\">CENTER</span> or <span style=\" "
+"font-weight:700;\">BOTTOM</span>.</p><p>The layout can be made of multiple "
+"grids and/or tiles separated by a + (example 0,0,50,100+50,0,50,100 which is "
+"equal to a 2x1 grid).</p><p>You can also use one of these special layouts: "
+"SPECIAL_FILL, SPECIAL_SPLIT_VERTICAL, SPECIAL_SPLIT_HORIZONTAL, "
+"SPECIAL_MAXIMIZE, SPECIAL_MINIMIZE, SPECIAL_FULLSCREEN, SPECIAL_KEEP_ABOVE, "
+"SPECIAL_KEEP_BELOW, SPECIAL_NO_TITLEBAR_AND_FRAME, SPECIAL_CLOSE, "
+"SPECIAL_EMPTY, SPECIAL_AUTO_TILER_TOGGLE, SPECIAL_AUTO_TILER_1, "
+"SPECIAL_AUTO_TILER_2 and SPECIAL_AUTO_TILER_3.</p></body></html>"
+msgstr "<html><head/><body><p>设置弹出网格模式下的布局 - 每行一个布局。</p><p>有效格式：</p><p>[<span style=\" font-weight:700;\">列数x行数</span>] - W 列宽、H 行高的网格布局（例如 4x2 将给出 2 行，每行 4 列，共 8 个平铺块）</p><p>[<span style=\" font-weight:700;\">X, Y, 宽度, 高度</span>] - 位于 X 和 Y 坐标的指定宽度 and 高度的平铺块（例如 20,10,400px,200px 表示一个 400 像素宽、200 像素高，且位于 20% 屏幕宽度 and 10% 屏幕高度处的平铺块）</p><p>[<span style=\" font-weight:700;\">X, Y, 宽度, 高度, 锚点X, 锚点Y</span>] - 与上述相同，但使用锚点来定位平铺块（例如 50,50,320px,240px,CENTER,CENTER 用于将一个 320x240 像素的平铺块放置在屏幕正中央 - 如果不指定 CENTER 锚点，则平铺块的左上角将位于屏幕中央）</p><p><span style=\" font-weight:700;\">X</span>、<span style=\" font-weight:700;\">Y</span>、<span style=\" font-weight:700;\">宽度</span> 和 <span style=\" font-weight:700;\">高度</span> 可以是百分比（通常在 0 到 100 之间，支持小数 - 推荐）、像素（使用 px 后缀的绝对值 - 不推荐）和分数（如 1/3）。</p><p><span style=\" font-weight:700;\">锚点X</span> 可以是平铺块宽度的百分比（如 50%）、分数（如 1/2）或 <span style=\" font-weight:700;\">LEFT (左)</span>、<span style=\" font-weight:700;\">CENTER (中)</span> 或 <span style=\" font-weight:700;\">RIGHT (右)</span>。</p><p><span style=\" font-weight:700;\">锚点Y</span> 可以是平铺块高度的百分比（如 50%）、分数（如 1/2）或 <span style=\" font-weight:700;\">TOP (上)</span>、<span style=\" font-weight:700;\">CENTER (中)</span> 或 <span style=\" font-weight:700;\">BOTTOM (下)</span>。</p><p>布局可由用 + 分割的多个网格 and/or 平铺块组成（例如 0,0,50,100+50,0,50,100 等于 2x1 网格）。</p><p>你也可以使用以下特殊布局之一：SPECIAL_FILL、SPECIAL_SPLIT_VERTICAL、SPECIAL_SPLIT_HORIZONTAL、SPECIAL_MAXIMIZE、SPECIAL_MINIMIZE、SPECIAL_FULLSCREEN、SPECIAL_KEEP_ABOVE、SPECIAL_KEEP_BELOW、SPECIAL_NO_TITLEBAR_AND_FRAME、SPECIAL_CLOSE、SPECIAL_EMPTY、SPECIAL_AUTO_TILER_TOGGLE、SPECIAL_AUTO_TILER_1、SPECIAL_AUTO_TILER_2 和 SPECIAL_AUTO_TILER_3。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:53
+msgid ""
+"<html><head/><body><p>Toggle between &quot;<span style=\" font-"
+"weight:700;\">Mouse</span>&quot; and &quot;<span style=\" font-"
+"weight:700;\">Window</span>&quot; input types.</p></body></html>"
+msgstr "<html><head/><body><p>在 &quot;<span style=\" font-weight:700;\">鼠标</span>&quot; 和 &quot;<span style=\" font-weight:700;\">窗口</span>&quot; 输入类型之间切换。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:54
+msgid ""
+"<html><head/><body><p>Toggle between &quot;<span style=\" font-"
+"weight:700;\">Popup Grid</span>&quot; and &quot;<span style=\" font-"
+"weight:700;\">Overlay</span>&quot; modes.</p></body></html>"
+msgstr "<html><head/><body><p>在 &quot;<span style=\" font-weight:700;\">弹出网格</span>&quot; 和 &quot;<span style=\" font-weight:700;\">覆盖平铺</span>&quot; 模式之间切换。</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:55
+msgid ""
+"<html><head/><body><p>Will auto tile new windows on the desktop with "
+"specified id even if &quot;Auto tile newly opened windows&quot; is not "
+"enabled.</p><p>Click Ctrl+Alt+A to toggle auto tiling for current window and "
+"print id to logs. Check logs by running this command in a terminal/konsole:</"
+"p><p>journalctl -f | grep MouseTiler</p><p>Copy the ids here. Add multiple "
+"ids by separating them by a comma.</p><p>Each screen + virtual desktop + "
+"activity have their own unique id (screen name + desktop id + activity id "
+"smashed together into a long string).</p><p><span style=\" font-"
+"weight:700;\">Example </span>(2 ids, one on screen HDMI-A-1 and one on DP-1):"
+"</p><p>HDMI-A-11a35dac2-5432-4011-c65f-e36d11c00345f436e08c-"
+"e9df-438e-3d74-401cb56dd6bb,DP-16c35dac2-7955-4053-a66b-e36d11c00345f436e08c-"
+"e9df-438e-3d74-401cb56dd6bb</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Will auto tile new windows on the desktop with "
+"specified id even if &quot;Auto tile newly opened windows&quot; is not "
+"enabled.</p><p>Click Ctrl+Alt+A to toggle auto tiling for current window and "
+"print id to logs. Check logs by running this command in a terminal/konsole:</"
+"p><p>journalctl -f | grep MouseTiler</p><p>Copy the ids here. Add multiple "
+"ids by separating them by a comma.</p><p>Each screen + virtual desktop + "
+"activity have their own unique id (screen name + desktop id + activity id "
+"smashed together into a long string).</p><p><span style=\" font-"
+"weight:700;\">Example </span>(2 ids, one on screen HDMI-A-1 and one on DP-1):"
+"</p><p>HDMI-A-11a35dac2-5432-4011-c65f-e36d11c00345f436e08c-"
+"e9df-438e-3d74-401cb56dd6bb,DP-16c35dac2-7955-4053-a66b-e36d11c00345f436e08c-"
+"e9df-438e-3d74-401cb56dd6bb</p></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:56
+msgid ""
+"<html><head/><body><p>You can support me by:</p><ul style=\"margin-top: 0px; "
+"margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: "
+"1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Donating - even a small "
+"donation goes a long way (links below)</li><li style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\">   Leaving a <a href=\"https://store.kde.org/p/"
+"2334027\"><span style=\" text-decoration: underline; "
+"color:#5294e2;\">review</span></a></li><li style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">   Downloading some of my <a href=\"https://rxweb.epizy.com/"
+"\"><span style=\" text-decoration: underline; color:#5294e2;\">free games</"
+"span></a></li></ul></body></html>"
+msgstr ""
+"<html><head/><body><p>You can support me by:</p><ul style=\"margin-top: 0px; "
+"margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: "
+"1;\"><li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">   Donating - even a small "
+"donation goes a long way (links below)</li><li style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\">   Leaving a <a href=\"https://store.kde.org/p/"
+"2334027\"><span style=\" text-decoration: underline; "
+"color:#5294e2;\">review</span></a></li><li style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\">   Downloading some of my <a href=\"https://rxweb.epizy.com/"
+"\"><span style=\" text-decoration: underline; color:#5294e2;\">free games</"
+"span></a></li></ul></body></html>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:57
+msgid ""
+"A minimized auto tiled window gains focus (manually minimized see \"New "
+"window auto tile action\")"
+msgstr "最小化的自动平铺窗口获得焦点（手动最小化请参阅“新窗口自动平铺操作”）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:58
+msgid "A visible auto tiled window gains focus"
+msgstr "可见的自动平铺窗口获得焦点"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:59
+msgid "Additional reveal margin"
+msgstr "额外显示边缘"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:60
+msgid "Additional screen edge margin"
+msgstr "额外屏幕边缘边距"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:61
+msgid "All Layouts"
+msgstr "所有布局"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:62
+msgid "All Layouts column count"
+msgstr "所有布局列数"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:63
+msgid ""
+"Allow tiling of modal windows (certain confirmation dialogs, toolbars, and "
+"other temporary sub-windows apps might create - some are transient, some are "
+"modal, some are both, and some are none of the two)."
+msgstr "允许平铺模态窗口（例如某些确认对话框、工具栏以及应用程序可能创建的其他临时子窗口 - 有些是临时的，有些是模态的，有些两者都是，有些都不是）。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:64
+msgid ""
+"Allow tiling of transient windows (certain confirmation dialogs, toolbars, "
+"and other temporary sub-windows apps might create - some are transient, some "
+"are modal, some are both, and some are none of the two)."
+msgstr "允许平铺临时窗口（例如某些确认对话框、工具栏以及应用程序可能创建的其他临时子窗口 - 有些是临时的，有些是模态的，有些两者都是，有些都不是）。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:65
+msgid "Alpha test blue"
+msgstr "阿尔法测试蓝"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:66
+msgid "Always visible"
+msgstr "始终可见"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:67
+msgid ""
+"Always visible but tiler is hidden - becomes a pure virtual desktop manager"
+msgstr "始终可见但平铺器被隐藏 - 成为纯粹的虚拟桌面管理器"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:68
+msgid "At fixed screen position"
+msgstr "At fixed screen position"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:69
+msgid "Auto - only visible when at least 2 virtual desktops exist"
+msgstr "自动 - 仅在存在至少 2 个虚拟桌面时可见"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:70
+msgid "Auto Tiling"
+msgstr "自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:71
+msgid "Auto Tiling Layouts"
+msgstr "Auto Tiling Layouts"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:72
+msgid ""
+"Auto tile for id (each screen+virtual desktop+activity has an unique id)"
+msgstr "针对特定 ID 自动平铺（每个屏幕+虚拟桌面+活动都有唯一 ID）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:73
+msgid ""
+"Auto tile newly opened windows - will auto-tile all new valid windows. If "
+"you want to auto tile per desktop, use \"Auto tile for id\" below instead. "
+"You can still auto tile using your mouse or keyboard shortcut (Ctrl+Alt+A)"
+msgstr "自动平铺新打开的窗口 - 将自动平铺所有新的有效窗口。如果您想按桌面自动平铺，请使用下方的“针对特定 ID 自动平铺”设置。您仍然可以使用鼠标或键盘快捷键 (Ctrl+Alt+A) 来手动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:74
+msgid ""
+"Auto tile windows that have been manually minimized, maximized or set to "
+"fullscreen once they return to default state"
+msgstr "当手动最小化、最大化或全屏的窗口返回到默认状态时，对其重新进行自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:75
+msgid "Auto tiled window layer"
+msgstr "自动平铺窗口图层"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:76
+msgid ""
+"Auto-remove empty virtual desktops - triggered when the last window on a "
+"virtual desktop is closed or when a window is moved - will never remove the "
+"first virtual desktop"
+msgstr "自动删除空白虚拟桌面 - 当虚拟桌面上的最后一个窗口被关闭或窗口被移动时触发 - 绝不会删除第一个虚拟桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:77
+msgid "Below mouse pointer"
+msgstr "在鼠标指针下方"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:78
+msgid "Black list - will not auto tile these apps (comma separated)"
+msgstr "黑名单 - 不会自动平铺这些应用（逗号分隔）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:79
+msgid "Blue"
+msgstr "蓝色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:80
+msgid "Bottom"
+msgstr "居下"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:81
+msgid "CUSTOM 1"
+msgstr "CUSTOM 1"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:82
+msgid "CUSTOM 2"
+msgstr "CUSTOM 2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:83
+msgid "CUSTOM 3"
+msgstr "CUSTOM 3"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:84
+msgid "Carousel"
+msgstr "Carousel"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:85
+msgid "Center"
+msgstr "居中"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:86
+msgid ""
+"Center in tile - will only align center of window with center of tile "
+"without resizing the window (for instance to center a window on screen)"
+msgstr ""
+"Center in tile - will only align center of window with center of tile "
+"without resizing the window (for instance to center a window on screen)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:87
+msgid ""
+"Center in tile first time, then remember previous mode during same session"
+msgstr ""
+"Center in tile first time, then remember previous mode during same session"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:88
+msgid "Change to hovered virtual desktop delay"
+msgstr "切换到悬停虚拟桌面的延迟"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:89
+msgid "Change to next auto-tiler. Does not loop."
+msgstr "切换到下一个自动平铺器。不循环。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:90
+msgid "Change to previous auto-tiler. Does not loop."
+msgstr "切换到上一个自动平铺器。不循环。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:91
+msgid "Ctrl+."
+msgstr "Ctrl+."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:92
+msgid "Ctrl+Alt+A"
+msgstr "Ctrl+Alt+A"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:93
+msgid "Ctrl+Alt+C"
+msgstr "Ctrl+Alt+C"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:94
+msgid "Ctrl+Alt+I"
+msgstr "Ctrl+Alt+I"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:95
+msgid "Ctrl+Alt+Left"
+msgstr "Ctrl+Alt+Left"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:96
+msgid "Ctrl+Alt+Right"
+msgstr "Ctrl+Alt+Right"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:97
+msgid "Ctrl+Alt+X"
+msgstr "Ctrl+Alt+X"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:98
+msgid "Ctrl+Space"
+msgstr "Ctrl+Space"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:99
+msgid "Custom Editor (pick CUSTOM 1 from menu above)"
+msgstr "Custom Editor (pick CUSTOM 1 from menu above)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:100
+msgid "Custom Editor (pick CUSTOM 2 from menu above)"
+msgstr "Custom Editor (pick CUSTOM 2 from menu above)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:101
+msgid "Custom Editor (pick CUSTOM 3 from menu above)"
+msgstr "Custom Editor (pick CUSTOM 3 from menu above)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:102
+msgid "Default input"
+msgstr "默认输入方式"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:103
+msgid "Default mode"
+msgstr "默认模式"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:104
+msgid "Default tiler"
+msgstr "默认平铺器"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:105
+msgid "Display as"
+msgstr "显示为"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:106
+msgid "Do nothing"
+msgstr "无操作"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:107
+msgid "Drop action"
+msgstr "放置动作"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:108
+msgid "Enable debug logs"
+msgstr "启用调试日志"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:109
+msgid "Follow theme colors"
+msgstr "跟随主题颜色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:110
+msgid "General"
+msgstr "常规"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:111
+msgid "Green"
+msgstr "绿色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:112
+msgid "Height"
+msgstr "高度"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:113
+msgid "Hidden"
+msgstr "隐藏"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:114
+msgid ""
+"Hidden if window is dragged right away (otherwise will appear if you click "
+"and hold - Firefox is not compatible with this mode and you need to press "
+"Meta+Space to show the tiler)"
+msgstr "如果立即拖拽窗口则隐藏（否则长按会显示 - Firefox 与此模式不兼容，你需要按下 Meta+Space 来显示平铺器）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:115
+msgid "Hidden unless toggled on (needs to be toggled on before each tiling)"
+msgstr "隐藏，除非启用（每次平铺前需要手动开启）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:116
+msgid "Hidden until mouse is near tiler (only works for Popup Grid mode)"
+msgstr "隐藏，直到鼠标靠近平铺器（仅适用于弹出网格模式）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:117
+msgid "Hidden until toggled on by shortcut (Meta+Space by default)"
+msgstr "隐藏，直到通过快捷键开启（默认为 Meta+Space）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:118
+msgid "Hidden while above tiler"
+msgstr "当位于平铺器上方时隐藏"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:119
+msgid "Hidden while tiler is visible"
+msgstr "当平铺器可见时隐藏"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:120
+msgid "Horizontal alignment"
+msgstr "水平对齐"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:121
+msgid "In a separate window next to the tile"
+msgstr "在平铺块旁边的独立窗口中"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:122
+msgid "Insert dragged window at target priority"
+msgstr "在目标优先级处插入拖拽的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:123
+msgid "Insert focused window at index"
+msgstr "在索引处插入聚焦窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:124
+msgid "Insert focused window at index - ignore primary"
+msgstr "在索引处插入聚焦窗口 - 忽略主平铺块"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:125
+msgid "Insert new window after window at index"
+msgstr "在索引窗口之后插入新窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:126
+msgid "Insert new window before window at index"
+msgstr "在索引窗口之前插入新窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:127
+msgid "Insert restored window before window at index"
+msgstr "在索引窗口之前插入恢复的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:128
+msgid "Inside the tile to place the window in"
+msgstr "在放置窗口的平铺块内"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:129
+msgid "Keep above other windows"
+msgstr "保持在其他窗口之上"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:130
+msgid "Keep below other windows"
+msgstr "保持在其他窗口之下"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:131
+msgid ""
+"Keep below other windows. Active window will not be kept below other windows"
+msgstr "保持在其他窗口之下。活动窗口将不会被置于其他窗口之下"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:132
+msgid ""
+"Keep in normal layer (might put auto-tiled windows on top when scrolling)"
+msgstr "保持在普通图层（滚动时可能会将自动平铺的窗口置于顶部）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:133
+msgid "Layout spacing"
+msgstr "布局间距"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:134
+msgid "Left"
+msgstr "居左"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:135
+msgid "Lime green"
+msgstr "酸橙绿"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:136
+msgid "Maximize window on virtual desktop"
+msgstr "在虚拟桌面上最大化窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:137
+msgid "Meta+Ctrl+C"
+msgstr "Meta+Ctrl+C"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:138
+msgid "Meta+Ctrl+S"
+msgstr "Meta+Ctrl+S"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:139
+msgid "Meta+Ctrl+Space"
+msgstr "Meta+Ctrl+Space"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:140
+msgid "Meta+Ctrl+V"
+msgstr "Meta+Ctrl+V"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:141
+msgid "Meta+Space"
+msgstr "Meta+Space"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:142
+msgid "Mouse - the tiler will open at and use mouse cursor for its position"
+msgstr "Mouse - the tiler will open at and use mouse cursor for its position"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:143
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1682
+msgid "Mouse Tiler: Auto Tiler - Scroll To Next Window"
+msgstr "鼠标平铺器：自动平铺 - 滚动到下一个窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:144
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1672
+msgid "Mouse Tiler: Auto Tiler - Scroll To Previous Window"
+msgstr "鼠标平铺器：自动平铺 - 滚动到上一个窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:145
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1603
+msgid "Mouse Tiler: Change Mode"
+msgstr "鼠标平铺器：切换模式"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:146
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1715
+msgid "Mouse Tiler: Change To Next Auto Tiler"
+msgstr "鼠标平铺器：切换到下一个自动平铺器"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:147
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1705
+msgid "Mouse Tiler: Change To Previous Auto Tiler"
+msgstr "鼠标平铺器：切换到上一个自动平铺器"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:148
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1621
+msgid "Mouse Tiler: Show All/Toggle Span"
+msgstr "鼠标平铺器：显示所有/切换跨越"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:149
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1548
+msgid "Mouse Tiler: Show Config"
+msgstr "鼠标平铺器：显示配置"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:150
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1692
+msgid "Mouse Tiler: Toggle Auto Tile For Active Window"
+msgstr "鼠标平铺器：切换当前窗口的自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:151
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1648
+msgid "Mouse Tiler: Toggle Center In Tile"
+msgstr "鼠标平铺器：切换平铺居中"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:152
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1635
+msgid "Mouse Tiler: Toggle Input Type"
+msgstr "鼠标平铺器：切换输入类型"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:153
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1658
+msgid "Mouse Tiler: Toggle Move To Previous Virtual Desktop"
+msgstr "鼠标平铺器：切换返回上一个虚拟桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:154
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1725
+msgid "Mouse Tiler: Toggle Tiling Suggestions"
+msgstr "鼠标平铺器：切换平铺建议"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:155
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:1562
+msgid "Mouse Tiler: Toggle Visibility"
+msgstr "鼠标平铺器：切换可见性"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:156
+msgid ""
+"Move back to previous virtual desktop after dropping window on a Tile (can "
+"be temporarily toggled with Meta+Ctrl+V)"
+msgstr "将窗口放置在平铺块上后返回到先前的虚拟桌面（可通过 Meta+Ctrl+V 临时切换）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:157
+msgid ""
+"Move back to previous virtual desktop after dropping window on a virtual "
+"desktop Drop Zone (can be temporarily toggled with Meta+Ctrl+V)"
+msgstr "将窗口放置在虚拟桌面放置区后返回到先前的虚拟桌面（可通过 Meta+Ctrl+V 临时切换）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:158
+msgid ""
+"Move window to virtual desktop - preserves position and size the window had "
+"before picking up"
+msgstr "移动窗口到虚拟桌面 - 保留窗口被拾起前的位置和大小"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:159
+msgid "Moved window visibility"
+msgstr "拖动窗口时的可见性"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:160
+msgid "New window auto tile action"
+msgstr "新窗口自动平铺操作"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:161
+msgid ""
+"Only visible if window is dragged right away (otherwise will remain hidden - "
+"mouse pointer change is a good indication that it is safe to drag)"
+msgstr "仅在立即拖拽窗口时可见（否则保持隐藏 - 鼠标指针变化是一个很好的指示，表明可以安全拖动）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:162
+msgid "Orange"
+msgstr "橙色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:163
+msgid "Other"
+msgstr "Other"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:164
+msgid "Overlay"
+msgstr "全屏覆盖"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:165
+msgid "Overlay polling rate"
+msgstr "Overlay polling rate"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:166
+msgid "Overlay screen edge margin"
+msgstr "Overlay screen edge margin"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:167
+msgid ""
+"Popup - Shows the tiler without additional system animations. Might cause "
+"issues with IMEs (if you use Asian languages) and possibly other features."
+msgstr ""
+"Popup - Shows the tiler without additional system animations. Might cause "
+"issues with IMEs (if you use Asian languages) and possibly other features."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:168
+msgid "Popup Grid"
+msgstr "弹出网格"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:169
+msgid "Popup Grid - Tab 1"
+msgstr "弹出网格 - 标签页 1"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:170
+msgid "Popup Grid - Tab 2"
+msgstr "弹出网格 - 标签页 2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:171
+msgid "Popup Grid Background Opacity"
+msgstr "弹出网格背景不透明度"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:172
+msgid "Popup Grid Layouts"
+msgstr "弹出网格布局"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:173
+msgid "Popup Grid Layouts column count"
+msgstr "弹出网格布局列数"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:174
+msgid "Popup Grid polling rate"
+msgstr "Popup Grid polling rate"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:175
+msgid "Purple"
+msgstr "紫色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:176
+msgid ""
+"READ TOOLTIP. Comma separated - click Ctrl+Alt+A to toggle auto tiling for "
+"current window and print id to journalctl -f | grep MouseTiler"
+msgstr "阅读工具提示。以逗号分隔 - 点击 Ctrl+Alt+A 切换当前窗口的自动平铺，并将 ID 打印到日志"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:177
+msgid "Red (dark background)"
+msgstr "红色 (深色背景)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:178
+msgid "Red (light background)"
+msgstr "红色 (浅色背景)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:179
+msgid ""
+"Remember if \"All Layouts\" were visible when opening the grid (otherwise "
+"the default \"Popup Grid Layouts\" is show)."
+msgstr "记住打开网格时“所有布局”是否可见（否则显示默认的“弹出网格布局”）。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:180
+msgid "Remember last visibility"
+msgstr "记住上一次可见性"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:181
+msgid ""
+"Remember previous tiler during same session - if you toggle the tiler using "
+"the shortcut, the next time you move a window it will be remembered."
+msgstr "在同一会话中记住先前的平铺器 - 如果使用快捷键切换了平铺器，下一次移动窗口时会记住该选择。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:182
+msgid "Restore previous window size when starting to move a window."
+msgstr "Restore previous window size when starting to move a window."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:183
+msgid ""
+"Restore size (and position if possible) when a window stops being auto tiled"
+msgstr "当窗口停止自动平铺时恢复大小（如果可能，还恢复位置）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:184
+msgid ""
+"Restore size and position when Mouse Tiler shuts down. Applies when Mouse "
+"Tiler closes before the window (such as when reloading while changing "
+"settings). Use to make sure windows stay on screen."
+msgstr "当 Mouse Tiler 关闭时恢复大小和位置。在 Mouse Tiler 比窗口先关闭时应用（例如由于更改设置重新加载时）。用于确保窗口保留在屏幕上。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:185
+msgid "Right"
+msgstr "居右"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:186
+msgid "SPECIAL_AUTO_TILER_2"
+msgstr "SPECIAL_AUTO_TILER_2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:187
+msgid "SPECIAL_AUTO_TILER_3"
+msgstr "SPECIAL_AUTO_TILER_3"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:188
+msgid ""
+"Scroll as close to focused window as possible - recommended for carousels"
+msgstr "滚动到尽可能靠近聚焦窗口的位置 - 推荐用于轮播模式"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:189
+msgid ""
+"Scroll as close to restored window as possible - recommended for carousels"
+msgstr "滚动到尽可能靠近恢复窗口的位置 - 推荐用于轮播模式"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:190
+msgid ""
+"Scroll auto tiled windows by moving mouse to left / right screen edge. "
+"Carousel auto tilers have infinite scroll while normal auto tilers scroll if "
+"there are more windows than current layout can fit."
+msgstr "通过将鼠标移动到左/右屏幕边缘来滚动自动平铺的窗口。轮播自动平铺器具有无限滚动，而常规自动平铺器会在窗口数超过当前布局所能容纳的数量时进行滚动。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:191
+msgid ""
+"Scroll infinitely in carousel layouts, otherwise scroll if there are more "
+"windows than the layout can fit."
+msgstr "在轮播布局中无限滚动，否则在窗口数超过当前布局所能容纳的数量时进行滚动。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:192
+msgid "Shortcuts and Hints"
+msgstr "快捷键与提示"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:193
+msgid "Show"
+msgstr "Show"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:194
+msgid "Show Position"
+msgstr "Show Position"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:195
+msgid "Show Size"
+msgstr "Show Size"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:196
+msgid "Show add new virtual desktop Drop Zone"
+msgstr "显示添加新虚拟桌面放置区"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:197
+msgid ""
+"Show configuration dialog that lets you customize every detail of the tiler."
+msgstr "显示允许您自定义平铺器每个细节的配置对话框。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:198
+msgid "Show hint about configuring visibility and shortcut hints."
+msgstr "显示关于配置显示/隐藏和快捷键提示的提示信息。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:199
+msgid ""
+"Show or hide the mouse tiler. Useful if you just want to move a window "
+"without tiling it."
+msgstr "显示或隐藏鼠标平铺器。如果你只想移动窗口而不对其进行平铺，这很有用。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:200
+msgid "Show suggestions"
+msgstr "Show suggestions"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:201
+msgid ""
+"Show target tile preview hint. An outline will display at the location where "
+"the tile will end up."
+msgstr "显示目标平铺预览提示。将在平铺块最终落下的位置显示一个轮廓。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:202
+msgid ""
+"Show text hint below the tiler. Keyboard shortcuts and special functionality "
+"information is displayed in the hint."
+msgstr "在平铺器下方显示文本提示。快捷键和特殊功能信息会显示在提示中。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:203
+msgid ""
+"Show text hint inside current tile. Keyboard shortcuts and special "
+"functionality information is displayed in the hint."
+msgstr "在当前平铺块内显示文本提示。快捷键和特殊功能信息会显示在提示中。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:204
+msgid "Suggest auto tiled windows"
+msgstr "建议自动平铺的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:205
+msgid "Suggest minimized windows"
+msgstr "建议最小化的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:206
+msgid "Suggest windows from other activities"
+msgstr "建议来自其他活动的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:207
+msgid "Suggest windows from other desktops"
+msgstr "建议来自其他虚拟桌面的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:208
+msgid "Suggest windows from other screens"
+msgstr "建议来自其他屏幕的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:209
+msgid "Suggestion visibility"
+msgstr "建议可见性"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:210
+msgid "Swap place with window at index"
+msgstr "与指定索引处的窗口交换位置"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:211
+msgid "Swap place with window at index - ignore primary"
+msgstr "与指定索引处的窗口交换位置 - 忽略主平铺块"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:212
+msgid "Swap places"
+msgstr "交换位置"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:213
+msgid "Tile normally - will resize the window to match the tile size"
+msgstr "Tile normally - will resize the window to match the tile size"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:214
+msgid ""
+"Tile normally first time, then remember previous mode during same session"
+msgstr ""
+"Tile normally first time, then remember previous mode during same session"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:215
+msgid "Tiler colors"
+msgstr "平铺器颜色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:216
+msgid ""
+"Toggle auto tiling on or off. If no window is currently auto-tiled, "
+"SPECIAL_AUTO_TILER_1 layout will be used."
+msgstr ""
+"Toggle auto tiling on or off. If no window is currently auto-tiled, "
+"SPECIAL_AUTO_TILER_1 layout will be used."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:217
+msgid ""
+"Toggle between moving to the new, or going back to the previous virtual "
+"desktop."
+msgstr ""
+"Toggle between moving to the new, or going back to the previous virtual "
+"desktop."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:218
+msgid "Toggle between regular tiling, and centering in tile."
+msgstr "Toggle between regular tiling, and centering in tile."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:219
+msgid "Toggle suggestions for placing windows in additional tiles."
+msgstr "Toggle suggestions for placing windows in additional tiles."
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:220
+msgid "Top"
+msgstr "居上"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:221
+msgid "Two auto tiled windows drag swap action"
+msgstr "两个自动平铺窗口的拖拽交换操作"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:222
+msgid "Unit:"
+msgstr "单位:"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:223
+msgid "Vertical alignment"
+msgstr "垂直对齐"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:224
+msgid "Virtual desktop manager visibility"
+msgstr "虚拟桌面管理器可见性"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:225
+msgid "Visible unless toggled off (need to be toggled off each time)"
+msgstr "可见，除非关闭（每次都需要手动关闭）"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:226
+msgid "Width"
+msgstr "宽度"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:227
+msgid ""
+"Window - (use for Stylus or Touch input) the tiler will open at and use "
+"window top-center for its position"
+msgstr ""
+"Window - (use for Stylus or Touch input) the tiler will open at and use "
+"window top-center for its position"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:228
+msgid ""
+"Window - Uses system \"Window open/close\" animation. Highest level of "
+"compatibility (such as with IMEs)."
+msgstr "窗口 - 使用系统的“窗口打开/关闭”动画。兼容性最高（例如与输入法 IME 的兼容）。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:229
+msgid "Window margin"
+msgstr "窗口间距"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:230
+msgid "Yellow"
+msgstr "黄色"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:231
+msgid "https://buymeacoffee.com/rxappdev"
+msgstr "https://buymeacoffee.com/rxappdev"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:232
+msgid "https://discord.gg/Js6AYsnQQj"
+msgstr "https://discord.gg/Js6AYsnQQj"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:233
+msgid "https://github.com/rxappdev/MouseTiler"
+msgstr "https://github.com/rxappdev/MouseTiler"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:234
+msgid "https://github.com/rxappdev/RememberWindowPositions"
+msgstr "https://github.com/rxappdev/RememberWindowPositions"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:235
+msgid "https://patreon.com/rxappdev"
+msgstr "https://patreon.com/rxappdev"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:236
+msgid "ms"
+msgstr "毫秒"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:237
+msgid "percent (%)"
+msgstr "百分比 (%)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:238
+msgid "pixels"
+msgstr "像素"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:239
+msgid "px"
+msgstr "像素 (px)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:240
+msgid ""
+"px - only applies when using the \"Hidden until mouse is near tiler\" option "
+"above"
+msgstr "像素 - 仅在启用上方的“隐藏，直到鼠标靠近平铺器”选项时生效"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:241
+msgid "seconds"
+msgstr "秒"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:242
+msgid "✅ Multi-monitor friendly - * | 1 + 50% + * | 1 CAROUSEL"
+msgstr "✅ Multi-monitor friendly - * | 1 + 50% + * | 1 CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:243
+msgid "✅ Multi-monitor friendly - 1 | * + 50% + 1 | * CAROUSEL"
+msgstr "✅ Multi-monitor friendly - 1 | * + 50% + 1 | * CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:244
+msgid "✅ Multi-monitor friendly - 2 + 50% + 2 STACK"
+msgstr "✅ Multi-monitor friendly - 2 + 50% + 2 STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:245
+msgid "✅ Multi-monitor friendly - 3 CARD STACK"
+msgstr "✅ Multi-monitor friendly - 3 CARD STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:246
+msgid "✅ Multi-monitor friendly - 5 CARD STACK"
+msgstr "✅ Multi-monitor friendly - 5 CARD STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:247
+msgid "✅ Multi-monitor friendly - 50% + 2 STACK"
+msgstr "✅ Multi-monitor friendly - 50% + 2 STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:248
+msgid "✅ Multi-monitor friendly - 50% + 3 STACK"
+msgstr "✅ Multi-monitor friendly - 50% + 3 STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:249
+msgid "✅ Multi-monitor friendly - 67% + 2 STACK"
+msgstr "✅ Multi-monitor friendly - 67% + 2 STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:250
+msgid "✅ Multi-monitor friendly - 67% + 3 STACK"
+msgstr "✅ Multi-monitor friendly - 67% + 3 STACK"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:251
+msgid "✅ Multi-monitor friendly - SINGLE TILE CAROUSEL"
+msgstr "✅ Multi-monitor friendly - SINGLE TILE CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:252
+msgid "✅ Multi-monitor friendly - SPIRAL 4"
+msgstr "✅ Multi-monitor friendly - SPIRAL 4"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:253
+msgid "✅ Multi-monitor friendly - SPIRAL 8"
+msgstr "✅ Multi-monitor friendly - SPIRAL 8"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:254
+msgid "❌ Multi-monitor friendly - 50% + 50% CAROUSEL"
+msgstr "❌ Multi-monitor friendly - 50% + 50% CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:255
+msgid "❌ Multi-monitor friendly - 50% CAROUSEL"
+msgstr "❌ Multi-monitor friendly - 50% CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:256
+msgid "❌ Multi-monitor friendly - 66% CAROUSEL"
+msgstr "❌ Multi-monitor friendly - 66% CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:257
+msgid "❌ Multi-monitor friendly - 76% CAROUSEL"
+msgstr "❌ Multi-monitor friendly - 76% CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:258
+msgid "❌ Multi-monitor friendly - 96% CAROUSEL"
+msgstr "❌ Multi-monitor friendly - 96% CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/config_strings.cpp:259
+msgid "❌ Multi-monitor friendly - THREE TILE CAROUSEL"
+msgstr "❌ Multi-monitor friendly - THREE TILE CAROUSEL"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:64
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is not a normal window"
+msgstr "无法自动平铺窗口！\n原因：窗口不是普通窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:70
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is not in taskbar"
+msgstr "无法自动平铺窗口！\n原因：窗口不在任务栏中"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:76
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is a popup"
+msgstr "无法自动平铺窗口！\n原因：窗口是弹出窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:83
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is transient"
+msgstr "无法自动平铺窗口！\n原因：窗口是临时窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:89
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is modal"
+msgstr "无法自动平铺窗口！\n原因：窗口是模态窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:95
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is maximized"
+msgstr "无法自动平铺窗口！\n原因：窗口已最大化"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:101
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is fullscreen"
+msgstr "无法自动平铺窗口！\n原因：窗口处于全屏状态"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:107
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is on multiple virtual desktops"
+msgstr "无法自动平铺窗口！\n原因：窗口位于多个虚拟桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:116
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Window is on multiple activities"
+msgstr "无法自动平铺窗口！\n原因：窗口位于多个活动区"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:123
+msgid ""
+"Unable to auto tile window!\n"
+"Reason: Application is blacklisted"
+msgstr "无法自动平铺窗口！\n原因：应用程序在黑名单中"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:271
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:274
+msgid "START<br>AUTO TILING"
+msgstr "开始<br>自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:271
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:274
+msgid "Start using Auto Tiler \"<b>%1</b>\""
+msgstr "开始使用自动平铺器 \"<b>%1</b>\""
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:293
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:297
+msgid "SWITCH<br>AUTO TILER"
+msgstr "切换<br>自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:293
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/AutoTiler.qml:297
+msgid "Switch to Auto Tiler \"<b>%1</b>\""
+msgstr "切换至自动平铺器 \"<b>%1</b>\""
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/MainMenu.qml:47
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/MainMenu.qml:91
+msgid "Mouse Tiler Configuration"
+msgstr "鼠标平铺器配置"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/MainMenu.qml:138
+msgid ""
+"This was meant to be the UI designer. However it is a lot of work to "
+"implement it, probaly at least 1-2 weeks full time. Sadly I got rent to pay "
+"and a 3 year old son to feed and based on my previous project Remember "
+"Window Positions, I will not be able to feed us from my contributions to "
+"Linux. (After over 3 months full time work I earned $100 total which I "
+"apreciate but it's not possible to survive on). I might implement it in the "
+"future if the situation changes."
+msgstr "这原本是用于 UI 设计器的。然而，实现它需要做大量工作，可能至少需要 1-2 周的全职开发。遗憾的是我需要支付房租并养活 3 岁的儿子。根据我之前的项目 Remember Window Positions，我无法通过对 Linux 的贡献来维持我们的生计。（经过 3 个多月的全职工作，我总共只获得了 100 美元的收入，尽管我非常感激，但这是无法生存的）。如果未来情况有所改变，我可能会实现它。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:215
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:455
+msgid "Configure tiler visibility and these hints in settings."
+msgstr "在设置中配置平铺器显示/隐藏和这些提示信息。"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:223
+msgid "Stop spanning (<b>%1</b>)"
+msgstr "停止跨越 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:223
+msgid "Span from this tile (<b>%1</b>)"
+msgstr "从此平铺块开始跨越 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:231
+msgid "Toggle visibility (<b>%1</b>)"
+msgstr "切换可见性 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:238
+msgid "Input type: Mouse (<b>%1</b>)"
+msgstr "输入类型: 鼠标 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:238
+msgid "Input type: Window (<b>%1</b>)"
+msgstr "输入类型: 窗口 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:245
+msgid "Center in tile: Enabled (<b>%1</b>)"
+msgstr "平铺居中: 已启用 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:245
+msgid "Center in tile: Disabled (<b>%1</b>)"
+msgstr "平铺居中: 已禁用 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:249
+msgid "Switch mode (<b>%1</b>)"
+msgstr "切换模式 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:253
+msgid "<b>Center in spanned tiles</b><br><br>"
+msgstr "<b>在跨越的平铺块中居中</b><br><br>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/OverlayTiler.qml:253
+msgid "<b>Center in this tile</b><br><br>"
+msgstr "<b>在此平铺块中居中</b><br><br>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:320
+msgid "<b>Drop</b> - Move window to a new virtual desktop, and switch to it"
+msgstr "<b>放置</b> - 将窗口移动到新的虚拟桌面并切换至该桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:324
+msgid "<b>Drop</b> - Move window to a new virtual desktop then go back to %1"
+msgstr "<b>放置</b> - 将窗口移动到新的虚拟桌面然后返回 %1"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:330
+msgid ""
+"<b>Drop</b> - Maximize window on a new virtual desktop, and switch to it"
+msgstr "<b>放置</b> - 在新的虚拟桌面上最大化窗口并切换至该桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:334
+msgid ""
+"<b>Drop</b> - Maximize window on a new virtual desktop then go back to %1"
+msgstr "<b>放置</b> - 在新的虚拟桌面上最大化窗口然后返回 %1"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:339
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:371
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:419
+msgid " (<b>%1</b>)"
+msgstr " (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:347
+msgid "<b>Drop</b> - Cancel move"
+msgstr "<b>放置</b> - 取消移动"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:350
+msgid "<b>Drop</b> - Move window to %1, and switch to it"
+msgstr "<b>放置</b> - 将窗口移动至 %1 并切换至该桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:354
+msgid "<b>Drop</b> - Move window to %1 then go back to %2"
+msgstr "<b>放置</b> - 将窗口移动至 %1 然后返回 %2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:359
+msgid "<b>Drop</b> - Maximize window on current virtual desktop"
+msgstr "<b>放置</b> - 在当前虚拟桌面上最大化窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:362
+msgid "<b>Drop</b> - Maximize window on %1, and switch to it"
+msgstr "<b>放置</b> - 在 %1 上最大化窗口并切换至该桌面"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:366
+msgid "<b>Drop</b> - Maximize window on %1 then go back to %2"
+msgstr "<b>放置</b> - 在 %1 上最大化窗口然后返回 %2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:374
+msgid "<br><b>Hover</b> - Switch to %1"
+msgstr "<br><b>悬停</b> - 切换至 %1"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:378
+msgid "Show tiler (<b>%1</b>)"
+msgstr "显示平铺器 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:387
+msgid "<b>Center in tile</b> - will not resize the window"
+msgstr "<b>平铺居中</b> - 不会调整窗口大小"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:387
+msgid "<br>Toggle with <b>%1</b>"
+msgstr "<br>使用 <b>%1</b> 切换"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:391
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:394
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:478
+msgid "Enabled"
+msgstr "已启用"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:391
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:394
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:478
+msgid "Disabled"
+msgstr "已禁用"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:391
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:394
+msgid "<br>Currently <b>%1</b>"
+msgstr "<br>当前: <b>%1</b>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:397
+msgid "<font color=\"orange\">⚠</font> No free space available"
+msgstr "<font color=\"orange\">⚠</font> 无可用空间"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:401
+msgid "<font color=\"orange\">⚠</font> No window available for splitting"
+msgstr "<font color=\"orange\">⚠</font> 无可用窗口进行分割"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:404
+msgid "<b>Enable</b> auto-tiling for this window"
+msgstr "对此窗口<b>启用</b>自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:404
+msgid "<b>Disable</b> auto-tiling for this window"
+msgstr "对此窗口<b>禁用</b>自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:411
+msgid ""
+"Auto-tile in this tile<br>Cycle auto-tiled windows with Ctrl+Alt+Left or "
+"Right"
+msgstr "在此平铺块中进行自动平铺<br>使用 Ctrl+Alt+左 或 右 循环切换自动平铺的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:414
+msgid "Tile window on current virtual dekstop"
+msgstr "在当前虚拟桌面上平铺窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:416
+msgid "Tile window on %1 then go back to %2"
+msgstr "在 %1 上平铺窗口然后返回 %2"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:458
+msgid "Show default (<b>%1</b>)"
+msgstr "显示默认 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:458
+msgid "Show all (<b>%1</b>)"
+msgstr "显示所有 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:462
+msgid "Visibility (<b>%1</b>)"
+msgstr "可见性 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:466
+msgid "Mode (<b>%1</b>)"
+msgstr "模式 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:470
+msgid "Input type (<b>%1</b>)"
+msgstr "输入类型 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:474
+msgid "Center in tile (<b>%1</b>)"
+msgstr "平铺居中 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:478
+msgid "Suggestions: <b>%1</b> (<b>%2</b>)"
+msgstr "窗口建议: <b>%1</b> (<b>%2</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:489
+msgid "Valid auto tile configuration - good job! :)"
+msgstr "有效的自动平铺配置 - 做得好！:)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/PopupTiler.qml:491
+msgid ""
+"<font color=\"orange\">⚠</font> <b>WARNING</b> <font color=\"orange\">⚠</"
+"font> INVALID AUTO TILE CONFIGURATION"
+msgstr "<font color=\"orange\">⚠</font> <b>警告</b> <font color=\"orange\">⚠</font> 自动平铺配置无效"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/WindowSuggestions.qml:348
+msgid "<b>Select a window to tile here</b>"
+msgstr "<b>选择要在此平铺的窗口</b>"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/WindowSuggestions.qml:466
+msgid "Select a window to place here"
+msgstr "选择要放置在此处的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/WindowSuggestions.qml:466
+msgid "Select a window to place in the highlighted tile"
+msgstr "选择要放置在突出显示平铺块中的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/WindowSuggestions.qml:504
+msgid ""
+"Click a tile to switch to it. Click anywhere else to close suggestions. "
+"Disable suggestions (<b>%1</b>)"
+msgstr "点击平铺块以切换。点击其他任何地方以关闭建议。禁用建议 (<b>%1</b>)"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:441
+msgid "«&nbsp; FILL &nbsp;»"
+msgstr "«&nbsp; 填充 &nbsp;»"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:441
+msgid "Fill largest empty space"
+msgstr "填充最大的空白空间"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:442
+msgid "Fill smallest empty space"
+msgstr "填充最小的空白空间"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:447
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:448
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:453
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:454
+msgid "SPLIT"
+msgstr "分割"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:447
+msgid "Split largest window and place on top"
+msgstr "分割最大的窗口并放置在顶部"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:448
+msgid "Split largest window and place on bottom"
+msgstr "分割最大的窗口并放置在底部"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:453
+msgid "Split largest window and place to the left"
+msgstr "分割最大的窗口并放置在左侧"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:454
+msgid "Split largest window and place to the right"
+msgstr "分割最大的窗口并放置在右侧"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:459
+msgid "MAXIMIZE"
+msgstr "最大化"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:459
+msgid ""
+"Set window to ⌞⌝ Maximized<br>It will return to previous size when moved"
+msgstr "设置窗口为 ⌞⌝ 最大化<br>移动时将恢复到先前的大小"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:464
+msgid "MINIMIZE"
+msgstr "最小化"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:464
+msgid "Set window to 🗕 Minimized<br>Useful for windows without a titlebar"
+msgstr "设置窗口为 🗕 最小化<br>适用于没有标题栏的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:469
+msgid "FULLSCREEN"
+msgstr "全屏"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:469
+msgid ""
+"Set window to 🗖 Fullscreen<br><font color=\"orange\">⚠</font> <b>WARNING</b> "
+"you might need to press <b>Alt+F3</b> to exit"
+msgstr "设置窗口为 🗖 全屏<br><font color=\"orange\">⚠</font> <b>警告</b> 您可能需要按 <b>Alt+F3</b> 退出"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:478
+msgid "KEEP ABOVE"
+msgstr "置顶"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:478
+msgid "Toggle window ▲ Keep Above"
+msgstr "切换窗口 ▲ 置顶显示"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:483
+msgid "KEEP BELOW"
+msgstr "置底"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:483
+msgid "Toggle window ▼ Keep Below"
+msgstr "切换窗口 ▼ 置底显示"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:488
+msgid "NO TITLEBAR<br>AND FRAME"
+msgstr "隐藏标题栏<br>和边框"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:488
+msgid ""
+"Toggle window <font size=\"1\">⊘</font> No Titlebar and Frame<br><font "
+"color=\"orange\">⚠</font> <b>WARNING</b> you might need to press <b>Alt+F3</"
+"b> to re-enable"
+msgstr "切换窗口 <font size=\"1\">⊘</font> 隐藏标题栏和边框<br><font color=\"orange\">⚠</font> <b>警告</b> 您可能需要按 <b>Alt+F3</b> 重新启用"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:493
+msgid "CLOSE"
+msgstr "关闭"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:493
+msgid "🗙 Close the window<br>Useful for windows without a titlebar"
+msgstr "🗙 关闭窗口<br>适用于没有标题栏的窗口"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:498
+msgid "TOGGLE<br>AUTO TILE"
+msgstr "切换<br>自动平铺"
+
+#: /home/hu-hub/个人项目/开源项目/MouseTiler/src/contents/ui/main.qml:498
+msgid "Toggle auto tile"
+msgstr "切换自动平铺"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "100"
+#~ msgstr "100"

@@ -9,13 +9,23 @@ SESSION_APPLICATIONS := # dolphin konsole kate
 
 .NOTPARALLEL: all
 
-.PHONY: all build install uninstall clean enable disable restart-kwin logs load unload reload remove-keybindings
+PO_FILES := $(wildcard po/*.po)
+MO_FILES := $(patsubst po/%.po,src/contents/locale/%/LC_MESSAGES/kwin_script_mousetiler.mo,$(PO_FILES))
+
+.PHONY: all build install uninstall clean enable disable restart-kwin logs load unload reload remove-keybindings translations
 
 all: install clean
 
-build: $(PKGFILE)
+translations: $(MO_FILES)
 
-$(PKGFILE): $(shell find $(SRC_DIR) -type f)
+src/contents/locale/%/LC_MESSAGES/kwin_script_mousetiler.mo: po/%.po
+	@echo "Compiling translation $<..."
+	@mkdir -p $(dir $@)
+	@msgfmt $< -o $@
+
+build: translations $(PKGFILE)
+
+$(PKGFILE): $(MO_FILES) $(shell find $(SRC_DIR) -type f | grep -v 'locale/.*/LC_MESSAGES/.*\.mo')
 	@echo "Packaging $(SRC_DIR) into $(PKGFILE)..."
 	@zip -rq $(PKGFILE) $(SRC_DIR)
 

@@ -212,7 +212,7 @@ PlasmaCore.Dialog {
                             let insertExtraBreak = false;
 
                             if (root.config.showHintHint) {
-                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + "Configure tiler visibility and these hints in settings.";
+                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + i18n("Configure tiler visibility and these hints in settings.");
                                 insertExtraBreak = true;
                             }
                             if (root.config.hintShowAllSpan) {
@@ -220,7 +220,7 @@ PlasmaCore.Dialog {
                                     defaultHint += "<br>";
                                     insertExtraBreak = false;
                                 }
-                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + (spannedFrom ? "Stop spanning (<b>" + root.config.shortcutShowAllSpan + "</b>)" : "Span from this tile (<b>" + root.config.shortcutShowAllSpan + "</b>)");
+                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + (spannedFrom ? i18n("Stop spanning (<b>%1</b>)", root.config.shortcutShowAllSpan) : i18n("Span from this tile (<b>%1</b>)", root.config.shortcutShowAllSpan));
                                 insertExtraBreak = true;
                             }
                             if (root.config.hintVisibility) {
@@ -228,29 +228,29 @@ PlasmaCore.Dialog {
                                     defaultHint += "<br>";
                                     insertExtraBreak = false;
                                 }
-                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + "Toggle visibility (<b>" + root.config.shortcutVisibility + "</b>)";
+                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + i18n("Toggle visibility (<b>%1</b>)", root.config.shortcutVisibility);
                             }
                             if (root.config.hintInputType) {
                                 if (insertExtraBreak) {
                                     defaultHint += "<br>";
                                     insertExtraBreak = false;
                                 }
-                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + "Input type: " + (root.useMouseCursor ? "Mouse" : "Window") + " (<b>" + root.config.shortcutInputType + "</b>)";
+                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + (root.useMouseCursor ? i18n("Input type: Mouse (<b>%1</b>)", root.config.shortcutInputType) : i18n("Input type: Window (<b>%1</b>)", root.config.shortcutInputType));
                             }
                             if (root.config.hintCenterInTile) {
                                 if (insertExtraBreak) {
                                     defaultHint += "<br>";
                                     insertExtraBreak = false;
                                 }
-                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + "Center in tile: " + (root.centerInTile ? "Enabled" : "Disabled") + " (<b>" + root.config.shortcutCenterInTile + "</b>)";
+                                defaultHint += (defaultHint.length > 0 ? "<br>" : "") + (root.centerInTile ? i18n("Center in tile: Enabled (<b>%1</b>)", root.config.shortcutCenterInTile) : i18n("Center in tile: Disabled (<b>%1</b>)", root.config.shortcutCenterInTile));
                             }
                             if (root.config.hintChangeMode) {
                                 insertExtraBreak = false;
-                                defaultHint += (defaultHint.length > 0 ? "<br><br>" : "") + "Switch mode (<b>" + root.config.shortcutChangeMode + "</b>)";
+                                defaultHint += (defaultHint.length > 0 ? "<br><br>" : "") + i18n("Switch mode (<b>%1</b>)", root.config.shortcutChangeMode);
                             }
 
                             if (root.centerInTile) {
-                                return (spannedFrom ? "<b>Center in spanned tiles</b><br><br>" : "<b>Center in this tile</b><br><br>") + defaultHint;
+                                return (spannedFrom ? i18n("<b>Center in spanned tiles</b><br><br>") : i18n("<b>Center in this tile</b><br><br>")) + defaultHint;
                             } else {
                                 return defaultHint;
                             }

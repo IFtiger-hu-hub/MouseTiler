@@ -317,26 +317,26 @@ PlasmaCore.Dialog {
                     case 0:
                         if (root.moveToVirtualDesktopOnDrop) {
                             // hint = '<b>Drop</b> - Switch to a new virtual desktop, and move window';
-                            hint = '<b>Drop</b> - Move window to a new virtual desktop, and switch to it';
+                            hint = i18n('<b>Drop</b> - Move window to a new virtual desktop, and switch to it');
                         } else {
                             // hint = '<b>Drop</b> - Add new virtual desktop, and move window';
                             // hint = '<b>Drop</b> - Move window to a new virtual desktop without switching';
-                            hint = '<b>Drop</b> - Move window to a new virtual desktop then go back to ' + root.virtualDesktopAtMoveStart.name;
+                            hint = i18n('<b>Drop</b> - Move window to a new virtual desktop then go back to %1', root.virtualDesktopAtMoveStart.name);
                         }
                         break;
                     case 1:
                         if (root.moveToVirtualDesktopOnDrop) {
                             // hint = '<b>Drop</b> - Switch to a new virtual desktop, and maximize window';
-                            hint = '<b>Drop</b> - Maximize window on a new virtual desktop, and switch to it';
+                            hint = i18n('<b>Drop</b> - Maximize window on a new virtual desktop, and switch to it');
                         } else {
                             // hint = '<b>Drop</b> - Add new virtual desktop, and maximize window';
                             // hint = '<b>Drop</b> - Maximize window on a new virtual desktop without switching';
-                            hint = '<b>Drop</b> - Maximize window on a new virtual desktop then go back to ' + root.virtualDesktopAtMoveStart.name;
+                            hint = i18n('<b>Drop</b> - Maximize window on a new virtual desktop then go back to %1', root.virtualDesktopAtMoveStart.name);
                         }
                         break;
                 }
                 if (root.config.hintMoveOnDrop) {
-                    hint += ' (<b>' + root.config.shortcutMoveOnDrop + '</b>)';
+                    hint += i18n(' (<b>%1</b>)', root.config.shortcutMoveOnDrop);
                 }
             } else {
                 let virtualDesktopName = root.virtualDesktops[activeVirtualDesktopIndex].desktop.name;
@@ -344,38 +344,38 @@ PlasmaCore.Dialog {
                 switch (config.virtualDesktopDropAction) {
                     case 0:
                         if (!virtualDesktopHoverChanged) {
-                            hint = '<b>Drop</b> - Cancel move';
+                            hint = i18n('<b>Drop</b> - Cancel move');
                         } else if (root.moveToVirtualDesktopOnDrop) {
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Move window, and switch to ' + virtualDesktopName;
-                            hint = '<b>Drop</b> - Move window to ' + virtualDesktopName + ', and switch to it';
+                            hint = i18n('<b>Drop</b> - Move window to %1, and switch to it', virtualDesktopName);
                         } else {
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Move window to ' + virtualDesktopName;
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Move window to ' + virtualDesktopName + ' without switching';
-                            hint = '<b>Drop</b> - Move window to ' + virtualDesktopName + ' then go back to ' + root.virtualDesktopAtMoveStart.name;
+                            hint = i18n('<b>Drop</b> - Move window to %1 then go back to %2', virtualDesktopName, root.virtualDesktopAtMoveStart.name);
                         }
                         break;
                     case 1:
                         if (!virtualDesktopHoverChanged) {
-                            hint = '<b>Drop</b> - Maximize window on current virtual desktop';
+                            hint = i18n('<b>Drop</b> - Maximize window on current virtual desktop');
                         } else if (root.moveToVirtualDesktopOnDrop) {
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Maximize window on, and switch to ' + virtualDesktopName;
-                            hint = '<b>Drop</b> - Maximize window on ' + virtualDesktopName + ', and switch to it';
+                            hint = i18n('<b>Drop</b> - Maximize window on %1, and switch to it', virtualDesktopName);
                         } else {
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Maximize window on ' + virtualDesktopName;
                             // hint = '<b>Hover</b> - Switch to ' + virtualDesktopName + '<br><b>Drop</b> - Maximize window on ' + virtualDesktopName + ' without switching';
-                            hint = '<b>Drop</b> - Maximize window on ' + virtualDesktopName + ' then go back to ' + root.virtualDesktopAtMoveStart.name;
+                            hint = i18n('<b>Drop</b> - Maximize window on %1 then go back to %2', virtualDesktopName, root.virtualDesktopAtMoveStart.name);
                         }
                         break;
                 }
                 if (virtualDesktopHoverChanged && root.config.hintMoveOnDrop) {
-                    hint += ' (<b>' + root.config.shortcutMoveOnDrop + '</b>)';
+                    hint += i18n(' (<b>%1</b>)', root.config.shortcutMoveOnDrop);
                 }
                 if (root.currentVirtualDesktopIndex != activeVirtualDesktopIndex) {
-                    hint += '<br><b>Hover</b> - Switch to ' + virtualDesktopName;
+                    hint += i18n('<br><b>Hover</b> - Switch to %1', virtualDesktopName);
                 }
             }
         } else if (!virtualDesktopVisibilityOverride && root.config.virtualDesktopVisibility == 1) {
-            hint = "Show tiler (<b>" + root.config.shortcutShowAllSpan + "</b>)";
+            hint = i18n("Show tiler (<b>%1</b>)", root.config.shortcutShowAllSpan);
             hasValidPopupDropHint = false;
             showPopupDropHint = false;
         } else if (activeLayoutIndex >= 0 && activeTileIndex >= 0) {
@@ -384,39 +384,39 @@ PlasmaCore.Dialog {
             let special = layoutRepeater.model[activeLayoutIndex].special;
             let tile = layoutRepeater.model[activeLayoutIndex].tiles[activeTileIndex];
             if (root.centerInTile && hasValidPopupDropHint) {
-                hint = '<b>Center in tile</b> - will not resize the window' + (root.config.hintCenterInTile ? '<br>Toggle with <b>' + root.config.shortcutCenterInTile + '</b>' : '');
+                hint = i18n('<b>Center in tile</b> - will not resize the window') + (root.config.hintCenterInTile ? i18n('<br>Toggle with <b>%1</b>', root.config.shortcutCenterInTile) : '');
             } else if (tile.hint) {
                 switch (special) {
                     case 'SPECIAL_KEEP_ABOVE':
-                        hint = tile.hint + '<br>Currently <b>' + (root.currentlyMovedWindow.keepAbove ? 'Enabled' : 'Disabled') + '</b>';
+                        hint = i18n(tile.hint) + i18n('<br>Currently <b>%1</b>', root.currentlyMovedWindow.keepAbove ? i18n('Enabled') : i18n('Disabled'));
                         break;
                     case 'SPECIAL_KEEP_BELOW':
-                        hint = tile.hint + '<br>Currently <b>' + (root.currentlyMovedWindow.keepBelow ? 'Enabled' : 'Disabled') + '</b>';
+                        hint = i18n(tile.hint) + i18n('<br>Currently <b>%1</b>', root.currentlyMovedWindow.keepBelow ? i18n('Enabled') : i18n('Disabled'));
                         break;
                     case 'SPECIAL_FILL':
-                        hint = hasValidPopupDropHint ? tile.hint : '<font color="orange">⚠</font> No free space available';
+                        hint = hasValidPopupDropHint ? i18n(tile.hint) : i18n('<font color="orange">⚠</font> No free space available');
                         break;
                     case 'SPECIAL_SPLIT_HORIZONTAL':
                     case 'SPECIAL_SPLIT_VERTICAL':
-                        hint = hasValidPopupDropHint ? tile.hint : '<font color="orange">⚠</font> No window available for splitting';
+                        hint = hasValidPopupDropHint ? i18n(tile.hint) : i18n('<font color="orange">⚠</font> No window available for splitting');
                         break;
                     case 'SPECIAL_AUTO_TILER_TOGGLE':
-                        hint = root.currentlyMovedWindow.mt_auto == undefined ? '<b>Enable</b> auto-tiling for this window' : '<b>Disable</b> auto-tiling for this window';
+                        hint = root.currentlyMovedWindow.mt_auto == undefined ? i18n('<b>Enable</b> auto-tiling for this window') : i18n('<b>Disable</b> auto-tiling for this window');
                         break;
                     default:
-                        hint = tile.hint;
+                        hint = i18n(tile.hint);
                         break;
                 }
             } else if (layoutRepeater.model[activeLayoutIndex].activeAutoTiler == true && tile.t != '*') {
-                hint = 'Auto-tile in this tile<br>Cycle auto-tiled windows with Ctrl+Alt+Left or Right';
+                hint = i18n('Auto-tile in this tile<br>Cycle auto-tiled windows with Ctrl+Alt+Left or Right');
             } else if (root.virtualDesktopChangedSinceMoveStart) {
                 if (root.moveToVirtualDesktopOnTile) {
-                    hint = 'Tile window on current virtual dekstop';
+                    hint = i18n('Tile window on current virtual dekstop');
                 } else {
-                    hint = 'Tile window on ' + Workspace.currentDesktop.name + ' then go back to ' + root.virtualDesktopAtMoveStart.name;
+                    hint = i18n('Tile window on %1 then go back to %2', Workspace.currentDesktop.name, root.virtualDesktopAtMoveStart.name);
                 }
                 if (root.config.hintMoveOnDrop) {
-                    hint += ' (<b>' + root.config.shortcutMoveOnDrop + '</b>)';
+                    hint += i18n(' (<b>%1</b>)', root.config.shortcutMoveOnDrop);
                 }
             } else if ((root.config.showSizeHint || root.config.showPositionHint) && !special) {
                 hint = '';
@@ -452,30 +452,30 @@ PlasmaCore.Dialog {
             let hasShortcutHint = false;
 
             if (root.config.showHintHint) {
-                defaultHint += (defaultHint.length > 0 ? " " : "") + "Configure tiler visibility and these hints in settings.<br>";
+                defaultHint += (defaultHint.length > 0 ? " " : "") + i18n("Configure tiler visibility and these hints in settings.") + "<br>";
             }
             if (root.config.hintShowAllSpan) {
-                defaultHint += (hasShortcutHint ? " - " : "") + (showAll ? "Show default (<b>" + root.config.shortcutShowAllSpan + "</b>)" : "Show all (<b>" + root.config.shortcutShowAllSpan + "</b>)");
+                defaultHint += (hasShortcutHint ? " - " : "") + (showAll ? i18n("Show default (<b>%1</b>)", root.config.shortcutShowAllSpan) : i18n("Show all (<b>%1</b>)", root.config.shortcutShowAllSpan));
                 hasShortcutHint = true;
             }
             if (root.config.hintVisibility) {
-                defaultHint += (hasShortcutHint ? " - " : "") + "Visibility (<b>" + root.config.shortcutVisibility + "</b>)";
+                defaultHint += (hasShortcutHint ? " - " : "") + i18n("Visibility (<b>%1</b>)", root.config.shortcutVisibility);
                 hasShortcutHint = true;
             }
             if (root.config.hintChangeMode) {
-                defaultHint += (hasShortcutHint ? " - " : "") + "Mode (<b>" + root.config.shortcutChangeMode + "</b>)";
+                defaultHint += (hasShortcutHint ? " - " : "") + i18n("Mode (<b>%1</b>)", root.config.shortcutChangeMode);
                 hasShortcutHint = true;
             }
             if (root.config.hintInputType) {
-                defaultHint += (hasShortcutHint ? " - " : "") + "Input type (<b>" + root.config.shortcutInputType + "</b>)";
+                defaultHint += (hasShortcutHint ? " - " : "") + i18n("Input type (<b>%1</b>)", root.config.shortcutInputType);
                 hasShortcutHint = true;
             }
             if (root.config.hintCenterInTile) {
-                defaultHint += (hasShortcutHint ? " - " : "") + "Center in tile (<b>" + root.config.shortcutCenterInTile + "</b>)";
+                defaultHint += (hasShortcutHint ? " - " : "") + i18n("Center in tile (<b>%1</b>)", root.config.shortcutCenterInTile);
                 hasShortcutHint = true;
             }
             if (root.config.hintToggleTilingSuggestions) {
-                defaultHint += (hasShortcutHint ? " - " : "") + "Suggestions: <b>" + (settings.showTilingSuggestions ? "Enabled": "Disabled") + "</b> (<b>" + root.config.shortcutToggleTilingSuggestions + "</b>)";
+                defaultHint += (hasShortcutHint ? " - " : "") + i18n("Suggestions: <b>%1</b> (<b>%2</b>)", settings.showTilingSuggestions ? i18n("Enabled") : i18n("Disabled"), root.config.shortcutToggleTilingSuggestions);
                 hasShortcutHint = true;
             }
 
@@ -486,9 +486,9 @@ PlasmaCore.Dialog {
 
         if (root.useAutoTilerPreview) {
             if (root.validAutoTilerPreview) {
-                hint = 'Valid auto tile configuration - good job! :)';
+                hint = i18n('Valid auto tile configuration - good job! :)');
             } else {
-                hint = '<font color="orange">⚠</font> <b>WARNING</b> <font color="orange">⚠</font> INVALID AUTO TILE CONFIGURATION';
+                hint = i18n('<font color="orange">⚠</font> <b>WARNING</b> <font color="orange">⚠</font> INVALID AUTO TILE CONFIGURATION');
             }
         }
     }

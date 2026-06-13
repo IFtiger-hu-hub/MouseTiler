@@ -61,50 +61,50 @@ QtObject {
         if (!window) return false;
         if (!window.normalWindow) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is not a normal window');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is not a normal window'));
             }
             return false;
         }
         if (window.skipTaskbar) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is not in taskbar');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is not in taskbar'));
             }
             return false;
         }
         if (window.popupWindow) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is a popup');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is a popup'));
             }
             return false;
         }
         if (window.deleted) return false;
         if (window.transient) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is transient');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is transient'));
             }
             return false;
         }
         if (window.modal) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is modal');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is modal'));
             }
             return false;
         }
         if (window.maximizeMode > 0) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is maximized');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is maximized'));
             }
             return false;
         }
         if (window.fullScreen) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is fullscreen');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is fullscreen'));
             }
             return false;
         }
         if (window.desktops.length != 1) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Window is on multiple virtual desktops');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is on multiple virtual desktops'));
             }
             return false;
         }
@@ -113,14 +113,14 @@ QtObject {
                 window.activities = [...autoActivities];
             } else {
                 if (inform) {
-                    onScreenDisplay.show('Unable to auto tile window!\nReason: Window is on multiple activities');
+                    onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Window is on multiple activities'));
                 }
                 return false;
             }
         }
         if (configAutoTileBlacklist.includes(window.resourceClass)) {
             if (inform) {
-                onScreenDisplay.show('Unable to auto tile window!\nReason: Application is blacklisted');
+                onScreenDisplay.show(i18n('Unable to auto tile window!\nReason: Application is blacklisted'));
             }
             return false;
         }
@@ -268,10 +268,10 @@ QtObject {
             logAutoTiler('updateAutoTilersInPopupTiler 2.1 ' + JSON.stringify(currentLayoutMapping));
             if (currentScreenAutoTilerIndex == -1) {
                 if (currentLayoutMapping.all) {
-                    popupGridAllLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: "START<br>AUTO TILING", hint: "Start using Auto Tiler \"<b>" + autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name + "</b>\""}];
+                    popupGridAllLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: i18n("START<br>AUTO TILING"), hint: i18n("Start using Auto Tiler \"<b>%1</b>\"", autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name)}];
                     popupGridAllLayouts[currentLayoutMapping.index].activeAutoTiler = false;
                 } else {
-                    popupGridLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: "START<br>AUTO TILING", hint: "Start using Auto Tiler \"<b>" + autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name + "</b>\""}];
+                    popupGridLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: i18n("START<br>AUTO TILING"), hint: i18n("Start using Auto Tiler \"<b>%1</b>\"", autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name)}];
                     popupGridLayouts[currentLayoutMapping.index].activeAutoTiler = false;
                 }
             } else if (currentLayoutMapping.autoTilerIndex == currentScreenAutoTilerIndex) {
@@ -290,11 +290,11 @@ QtObject {
                 logAutoTiler('updateAutoTilersInPopupTiler 2.3');
                 if (currentLayoutMapping.all) {
                     // popupGridAllLayouts[currentLayoutMapping.index].tiles = autoLayouts[currentLayoutMapping.autoTilerIndex][Math.min(nextLayoutIndex, autoLayouts[currentLayoutMapping.autoTilerIndex].length - 1)].tiles;
-                    popupGridAllLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: "SWITCH<br>AUTO TILER", hint: "Switch to Auto Tiler \"<b>" + autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name + "</b>\""}];
+                    popupGridAllLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: i18n("SWITCH<br>AUTO TILER"), hint: i18n("Switch to Auto Tiler \"<b>%1</b>\"", autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name)}];
                     popupGridAllLayouts[currentLayoutMapping.index].activeAutoTiler = false;
                 } else {
                     // popupGridLayouts[currentLayoutMapping.index].tiles = autoLayouts[currentLayoutMapping.autoTilerIndex][Math.min(nextLayoutIndex, autoLayouts[currentLayoutMapping.autoTilerIndex].length - 1)].tiles;
-                    popupGridLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: "SWITCH<br>AUTO TILER", hint: "Switch to Auto Tiler \"<b>" + autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name + "</b>\""}];
+                    popupGridLayouts[currentLayoutMapping.index].tiles = [{x: 0, y: 0, w: 100, h: 100, t: i18n("SWITCH<br>AUTO TILER"), hint: i18n("Switch to Auto Tiler \"<b>%1</b>\"", autoLayoutConfigs[currentLayoutMapping.autoTilerIndex].name)}];
                     popupGridLayouts[currentLayoutMapping.index].activeAutoTiler = false;
                 }
             }
